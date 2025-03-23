@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/e7/P01018214.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/e7/P01018214_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/e7/P01018214_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/e7/P01018214_d3.jpg",
+    "brand": "JIL SANDER",
+    "name": "Embellished ring",
+    "price": 210,
+    "rating": 4,
+    "discount": 10,
+    "availability": true
+  },
+
+  {
+    "id": 2,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/26/P00995743.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/26/P00995743_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/26/P00995743_d3.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/26/P00995743_d4.jpg",
+    "brand": "GUCCI",
+    "name": "Blondie crystal ring",
+    "price": 320,
+    "rating": 3.8,
+    "discount": 20,
+    "availability": true
+  },
+
+  {
+    "id": 3,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/da/P00940564.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/da/P00940564_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/da/P00940564_d3.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/da/P00940564_d4.jpg",
+    "brand": "GUCCI",
+    "name": "Blondie enamel ring",
+    "price": 280,
+    "rating": 3.5,
+    "discount": 17,
+    "availability": true
+  },
+  {
+    "id": 4,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/7d/P00811779.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/7d/P00811779_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/7d/P00811779_d3.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/7d/P00811779_d4.jpg",
+    "brand": "GIVENCHY",
+    "name": "G Chain ring",
+    "price": 300,
+    "rating": 4.1,
+    "discount": 19,
+    "availability": true
+  },
+
+  {
+    "id": 5,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/7d/P00811779_d3.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/ed/P00877187_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/ed/P00877187_d3.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/ed/P00877187_d4.jpg",
+    "brand": "BALMAIN",
+    "name": "Logo ring",
+    "price": 215,
+    "rating": 4.9,
+    "discount": 20,
+    "availability": true
+  },
+  {
+    "id": 6,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/21/P00959848.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/21/P00959848_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/21/P00959848_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/21/P00959848_d3.jpg",
+    "brand": "ZIMMERMANN",
+    "name": "embellished gold-plated ring",
+    "price": 190,
+    "rating": 3.6,
+    "discount": 6.5,
+    "availability": false
+  },
+  {
+    "id": 7,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/21/P00959848_d3.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/6a/P00949372_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/6a/P00949372_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/6a/P00949372_d3.jpg",
+    "brand": "BALENCIAGA",
+    "name": "24/7 ring",
+    "price": 300,
+    "rating": 3.9,
+    "discount": 25,
+    "availability": false
+  },
+  {
+    "id": 8,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/b2/P00927904.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/b2/P00927904_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/b2/P00927904_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/b2/P00927904_d3.jpg",
+    "brand": "OSCAR DE LA RENTA",
+    "name": "Coral Heart embellished ring",
+    "price": 255,
+    "rating": 3.3,
+    "discount": 13,
+    "availability": true
+  },
+  {
+    "id": 9,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/a1/P00989714.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/a1/P00989714_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/a1/P00989714_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/a1/P00989714_d3.jpg",
+    "brand": " MCQUEEN",
+    "name": "Arrow ring",
+    "price": 295,
+    "rating": 4.6,
+    "discount": 12,
+    "availability": false
+  }
+]

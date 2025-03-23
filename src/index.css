@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Italianno&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-tier1: 450px;
+  --breakpoint-tier2: 537px;
+  --breakpoint-tier3: 650px;
+  --font-poppins: Poppins, sans-serif;
+  --font-raleway: Raleway, sans-serif;
+  --font-italianno: Italianno, sans-serif;
+  --font-mont: Montserrat, sans-serif;
+  --font-playfair: Playfair Display, sans-serif;
+  --text-body: clamp(12px, 2.4vw, 15px);
+  --text-btn: clamp(13px, 2.4vw, 16px);
+
+  --text-stat: clamp(18px, 2.2vw, 30px);
+  --text-review: clamp(14px, 2.2vw, 18px);
+  --text-reviewsub: clamp(10px, 1.5vw, 13.5px);
+  --text-sectiontitle: clamp(23px, 3.5vw, 30px);
+
+  --color-sub: rgb(0, 0, 0, 0.6);
+  --color-primary: #9668f3;
+}
+
+.line-svg {
+  display: none;
+}
+
+@media (min-width: 513px) {
+  .line-svg {
+    display: flex;
+  }
+}
+.hexclip {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  width: clamp(140px, 30vw, 260px);
+  height: clamp(140px, 30vw, 260px);
+}
+
+.hex3 {
+  margin-top: -35px;
+}
+
+@media (min-width: 445px) {
+  .hex3 {
+    margin-top: -36px;
+  }
+}
+@media (min-width: 446px) {
+  .hex3 {
+    margin-top: -37px;
+  }
+}
+@media (min-width: 504px) {
+  .hex3 {
+    margin-top: -38px;
+  }
+}
+@media (min-width: 537px) {
+  .hex3 {
+    margin-top: -45px;
+  }
+}
+@media (min-width: 610px) {
+  .hex3 {
+    margin-top: -46px;
+  }
+}
+@media (min-width: 630px) {
+  .hex3 {
+    margin-top: -48px;
+  }
+}
+@media (min-width: 680px) {
+  .hex3 {
+    margin-top: -51px;
+  }
+}
+@media (min-width: 768px) {
+  .hex3 {
+    margin-top: -55px;
+  }
+}
+@media (min-width: 780px) {
+  .hex3 {
+    margin-top: -55px;
+  }
+}
+@media (min-width: 835px) {
+  .hex3 {
+    margin-top: -60px;
+  }
+}
+@media (min-width: 1010px) {
+  .hex3 {
+    margin-top: -61px;
+  }
+}
+
+.hexcover {
+  gap: 8px;
+}
+@media (min-width: 730px) {
+  .hexcover {
+    gap: 12px;
+  }
+}

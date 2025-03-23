@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Sophia Martinez",
+    "review": "Celestial Sparkles has the most elegant jewelry! The necklace I bought is absolutely stunning and adds a touch of sophistication to every outfit.",
+    "rating": 5,
+    "verified": true
+  },
+  {
+    "id": 2,
+    "name": "Isabelle Thompson",
+    "review": "I’m in love with my new wig! The texture feels so natural, and the lace front blends perfectly. This is my go-to store for quality wigs.",
+    "rating": 5,
+    "verified": false
+  },
+  {
+    "id": 3,
+    "name": "Amara Johnson",
+    "review": "The bracelet I purchased is gorgeous! It’s lightweight, elegant, and doesn’t tarnish. Perfect for both casual and formal wear.",
+    "rating": 4,
+    "verified": true
+  },
+  {
+    "id": 4,
+    "name": "Lily Chen",
+    "review": "The hair extensions are amazing! They blend so well with my natural hair, and the quality is unbeatable. I receive compliments everywhere I go.",
+    "rating": 5,
+    "verified": false
+  },
+  {
+    "id": 5,
+    "name": "Zara Patel",
+    "review": "I purchased an anklet, and it’s absolutely beautiful. The detailing is exquisite, and it adds the perfect touch of glam to my summer outfits.",
+    "rating": 5,
+    "verified": true
+  },
+  {
+    "id": 6,
+    "name": "Hannah Wilson",
+    "review": "The rings from Celestial Sparkles are so stylish! They don’t fade, and I love the intricate designs. Definitely coming back for more!",
+    "rating": 4,
+    "verified": false
+  },
+  {
+    "id": 7,
+    "name": "Emma Rodriguez",
+    "review": "I got a pair of earrings, and they’re stunning! Super lightweight yet luxurious. I can wear them all day without discomfort.",
+    "rating": 5,
+    "verified": true
+  },
+  {
+    "id": 8,
+    "name": "Mia Adams",
+    "review": "The hair care products are top-tier! My hair has never felt so soft and healthy. Definitely a must-have for anyone who loves their hair.",
+    "rating": 5,
+    "verified": true
+  }
+]

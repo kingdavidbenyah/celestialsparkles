@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "image": "Anagram sterling silver necklace",
+    "brand": "LOEWE",
+    "name": "Anagram sterling silver necklace",
+    "price": 420,
+    "rating": 4.8
+  },
+  {
+    "id": 2,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/27/P00982233.jpg",
+    "brand": "Cartier Eyewear ",
+    "name": "Rectangular sunglasses",
+    "price": 815,
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/80/P01004929.jpg",
+    "brand": "JACQUEMUS",
+    "name": "Turismo leather tote bag",
+    "price": 750,
+    "rating": 4.5
+  },
+  {
+    "id": 4,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/9c/P00984583.jpg",
+    "brand": "Giorgio Armani",
+    "name": "Silk and cotton polo shirt",
+    "price": 665,
+    "rating": 4.3
+  },
+
+  {
+    "id": 5,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/78/P00976903.jpg",
+    "brand": "FENDI",
+    "name": "First Crystal oval sunglasses",
+    "price": 355,
+    "rating": 3.9
+  },
+  {
+    "id": 6,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/31/P01017897.jpg",
+    "brand": "GIANVITO ROSSI",
+    "name": "Vandée suede boat shoes",
+    "price": 580,
+    "rating": 4.8
+  },
+  {
+    "id": 7,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/6d/P01027092.jpg",
+    "brand": "SAINT LAURENT",
+    "name": "Jill 75 leopard-print mules",
+    "price": 730,
+    "rating": 3
+  },
+  {
+    "id": 8,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/7d/P00997199.jpg",
+    "brand": "LORO PIANA",
+    "name": "Fobello ribbed-knit beanie",
+    "price": 420,
+    "rating": 4.4
+  },
+  {
+    "id": 9,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/10/P01043263.jpg",
+    "brand": "LOEWE",
+    "name": "Cotton and silk cargo pants",
+    "price": 1010,
+    "rating": 2.8
+  }
+]
