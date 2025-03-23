@@ -23,7 +23,7 @@ function ProductSection({ sectionTitle, json, extrajson, button }) {
   return (
     <>
       <section className="pt-20 pb-12">
-        <p className="font-raleway text-left text-sectiontitle font-bold  px-5 lg:px-24">
+        <p className="font-raleway text-center text-sectiontitle font-bold  px-5 lg:px-24">
           {sectionTitle}
         </p>
         <div className="flex flex-wrap items-center justify-center gap-5 py-10">

@@ -181,7 +181,7 @@ function Homepage() {
                 width: "clamp(290px, 32vw,400px)",
               }}
             >
-              <p className="absolute top-5 lg:top-1 left-5 text-white">
+              <p className="absolute top-5 lg:top-1 left-5 text-white tracking-wider z-20">
                 Necklace
               </p>
 
@@ -190,6 +190,7 @@ function Homepage() {
                 alt="necklace img"
                 className="object-cover"
               />
+              <p className="absolute inset-0 bg-black/30"></p>
             </div>
             <div
               className="relative bg-white rounded-2xl overflow-hidden"
@@ -198,7 +199,7 @@ function Homepage() {
                 width: "clamp(290px, 40vw,680px)",
               }}
             >
-              <p className="absolute top-5 lg:top-1 left-5 text-white">
+              <p className="absolute top-5 lg:top-1 left-5 text-white tracking-wider z-20">
                 Earrings
               </p>
 
@@ -207,6 +208,7 @@ function Homepage() {
                 alt="earrings img"
                 className="object-cover"
               />
+              <p className="absolute inset-0 bg-black/30"></p>
             </div>
             <div
               className="relative bg-white rounded-2xl overflow-hidden"
@@ -215,13 +217,16 @@ function Homepage() {
                 width: "clamp(290px, 40vw,680px)",
               }}
             >
-              <p className="absolute top-5 lg:top-1 left-5 text-white">Rings</p>
+              <p className="absolute top-5 lg:top-1 left-5 text-white tracking-wider z-20">
+                Rings
+              </p>
 
               <img
                 src="https://www.mytheresa.com/content/652/466/65/284b2773-7012-4f61-9f14-b368dc31a657.jpg"
                 alt="Rings img"
-                className=""
+                className="object-cover"
               />
+              <p className="absolute inset-0 bg-black/30"></p>
             </div>
             <div
               className="relative bg-white rounded-2xl overflow-hidden"
@@ -230,7 +235,7 @@ function Homepage() {
                 width: "clamp(290px, 32vw,400px)",
               }}
             >
-              <p className="absolute top-5 lg:top-1 left-5 text-white">
+              <p className="absolute top-5 lg:top-1 left-5 text-white tracking-wider z-20">
                 Bracelets
               </p>
 
@@ -239,6 +244,7 @@ function Homepage() {
                 alt="bracelets img"
                 className="object-cover"
               />
+              <p className="absolute inset-0 bg-black/30"></p>
             </div>
           </div>
         </div>

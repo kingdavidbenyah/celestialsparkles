@@ -1,5 +1,6 @@
 import { IoBagAddOutline } from "react-icons/io5";
 import { TbExternalLink } from "react-icons/tb";
+import { FaCediSign } from "react-icons/fa6";
 
 const DisplayProducts = ({ product }) => {
   const newprice = ((100 - product.discount) / 100) * product.price;
@@ -43,7 +44,7 @@ const DisplayProducts = ({ product }) => {
             className="flex items-center gap-2 font-medium text-black"
             style={{ fontSize: "clamp(12px, 1.5vw, 14px)" }}
           >
-            <img src="../../public/assets/svg/star.svg" alt="star svg" />
+            <img src="assets/svg/star.svg" alt="star svg" />
 
             <span className="text-black">
               {product.rating}
@@ -54,15 +55,17 @@ const DisplayProducts = ({ product }) => {
           <ul className="flex gap-3 items-center font-semibold">
             <li
               style={{ fontSize: "clamp(18px,3vw,20px)" }}
-              className="text-black"
+              className="text-black flex items-center"
             >
-              ${newprice.toLocaleString()}
+              <FaCediSign />
+              {newprice.toLocaleString()}
             </li>
             <li
               style={{ fontSize: "clamp(15px, 2vw, 16px)" }}
-              className="text-[rgb(0,0,0,0.4)] line-through"
+              className="text-[rgb(0,0,0,0.4)] line-through flex items-center"
             >
-              ${product.price.toLocaleString()}
+              <FaCediSign />
+              {product.price.toLocaleString()}
             </li>
             <li
               style={{ fontSize: "clamp(10px, 2vw, 12px)" }}

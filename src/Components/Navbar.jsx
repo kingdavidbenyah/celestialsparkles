@@ -63,7 +63,7 @@ function Navbar() {
               {/* Nav Links for lg screens */}
               <ul className="hidden lg:flex space-x-6 text-gray-700">
                 <li className="hover:text-primary hover:cursor-pointer">
-                  <Link to="/Shop">Shop</Link>
+                  Shop
                 </li>
 
                 <li className="hover:text-primary hover:cursor-pointer">
