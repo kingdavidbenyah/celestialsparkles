@@ -117,7 +117,7 @@ function Homepage() {
         </div>
       </section>
       {/* Brand Section */}
-      <ul className="min-w-[320px] px-2 md:px-5 flex flex-wrap bg-black py-7 lg:pt-8 lg:pb-5  justify-center items-center gap-3 tier1:space-x-7 md:space-x-16 space-y-2 md:space-y-3 xl:space-x-24">
+      <ul className="min-w-[320px] px-2 md:px-5 flex flex-wrap bg-black py-7 lg:pt-8 lg:pb-5  justify-center items-center space-x-8 tier1:space-x-7 md:space-x-16 space-y-2 md:space-y-3 xl:space-x-24">
         <li>
           <img
             src="assets/svg/gucci.svg"
@@ -175,7 +175,7 @@ function Homepage() {
 
           <div className="px-5 mx-auto max-w-5xl py-10 flex justify-center flex-wrap gap-5 md:gap-3 text-stat text-black font-medium">
             <div
-              className="relative  w-full tier2:w-auto bg-white rounded-2xl overflow-hidden"
+              className="relative hover:cursor-pointer  w-full tier2:w-auto bg-white rounded-2xl overflow-hidden"
               style={{
                 height: "clamp(190px,20vw,289px)",
                 width: "clamp(290px, 32vw,400px)",
@@ -193,7 +193,7 @@ function Homepage() {
               <p className="absolute inset-0 bg-black/30"></p>
             </div>
             <div
-              className="relative bg-white rounded-2xl overflow-hidden"
+              className="relative hover:cursor-pointer bg-white rounded-2xl overflow-hidden"
               style={{
                 height: "clamp(190px,20vw,289px)",
                 width: "clamp(290px, 40vw,680px)",
@@ -211,7 +211,7 @@ function Homepage() {
               <p className="absolute inset-0 bg-black/30"></p>
             </div>
             <div
-              className="relative bg-white rounded-2xl overflow-hidden"
+              className="relative hover:cursor-pointer bg-white rounded-2xl overflow-hidden"
               style={{
                 height: "clamp(190px,20vw,289px)",
                 width: "clamp(290px, 40vw,680px)",
@@ -229,7 +229,7 @@ function Homepage() {
               <p className="absolute inset-0 bg-black/30"></p>
             </div>
             <div
-              className="relative bg-white rounded-2xl overflow-hidden"
+              className="relative hover:cursor-pointer bg-white rounded-2xl overflow-hidden"
               style={{
                 height: "clamp(190px,20vw,289px)",
                 width: "clamp(290px, 32vw,400px)",

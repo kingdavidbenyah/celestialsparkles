@@ -10,12 +10,12 @@ function Navbar() {
       {isShowing && (
         // black signup pop up
         <div
-          className="bg-[#000000]  text-white py-[6.5px] px-3 flex items-center gap-10 tier1:justify-center"
-          style={{ fontSize: "clamp(9px, 2.3vw, 12px)" }}
+          className="bg-[#000000]  text-white py-2 px-3 flex items-center gap-10 tier1:justify-center"
+          style={{ fontSize: "clamp(10.5px, 2.3vw, 13px)" }}
         >
           <p className=" flex gap-1 tier1:gap-3">
             Sign up and get 20% off to your first order.
-            <span className="underline hover:cursor-pointer hover:text-[#bf9fff]">
+            <span className="underline hover:cursor-pointer hover:text-[#bf9fff] focus:text-[#bf9fff]">
               Sign Up Now
             </span>
           </p>
@@ -26,7 +26,7 @@ function Navbar() {
             }}
           >
             <img
-              src="../../public/assets/svg/close.svg"
+              src="assets/svg/close.svg"
               alt="close svg"
               className="hover:cursor-pointer w-[9.5px] tier1:w-3 hover:scale-105 transition 0.5s ease-in-out"
             />
@@ -80,25 +80,40 @@ function Navbar() {
 
             {/* Nav Links for sm & md screens */}
             {isOpen && (
-              <div className="lg:hidden mt-5 bg-gray-100 p-4 rounded-lg text-gray-600 order-1 w-full ">
-                <ul className="space-y-4 text-center text-body">
+              <div
+                className="lg:hidden mt-5 mb-3 bg-gray-100 p-4 rounded-lg text-gray-600 order-1 w-full "
+                style={{ fontSize: "clamp(13px, 2.8vw, 15px)" }}
+              >
+                <ul className="space-y-4 text-center">
                   <li>
-                    <a href="#" className="block hover:text-[#8c53ff]">
+                    <a
+                      href="#"
+                      className="block hover:text-[#8c53ff] focus:text-[#8c53ff]"
+                    >
                       Shop
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="block hover:text-[#8c53ff]">
+                    <a
+                      href="#"
+                      className="block hover:text-[#8c53ff] focus:text-[#8c53ff]"
+                    >
                       On Sale
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="block hover:text-[#8c53ff]">
+                    <a
+                      href="#"
+                      className="block hover:text-[#8c53ff] focus:text-[#8c53ff]"
+                    >
                       New Arrivals
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="block hover:text-[#8c53ff]">
+                    <a
+                      href="#"
+                      className="block hover:text-[#8c53ff] focus:text-[#8c53ff]"
+                    >
                       Brands
                     </a>
                   </li>

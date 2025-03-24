@@ -45,8 +45,8 @@ function Footer() {
             </li>
           </ul>
         </ul>
-        <div className="pt-38 pb-15 flex flex-col xl:flex-row  items-center w-fit gap-10 max-w-6xl mx-auto">
-          <ul className="grid grid-cols-1 gap-2">
+        <div className="px-5 pt-30 pb-15 flex flex-col xl:flex-row items-start xl:items-center gap-10 ">
+          <ul className="grid grid-cols-1 gap-2 mx-auto">
             {/* Logo */}
             <Link to="/">
               <div>
@@ -60,7 +60,7 @@ function Footer() {
                 />
               </div>
             </Link>
-            <li className="text-sub max-w-[400px]">
+            <li className="text-sub xl:max-w-[400px]">
               Wear what you love, love what you wear—fashion made just for you,
               no matter your style!
             </li>
@@ -71,19 +71,33 @@ function Footer() {
               <li className="p-2 bg-white rounded-full hover:cursor-pointer hover:scale-105 transition ease-in-out">
                 <FaFacebookF />
               </li>
-<a href="https://www.instagram.com/cele.stialsparkles/?utm_source=qr&igsh=ano2NzJkaHVnZW5m#" target=_blank>
-              <li className="p-2 bg-white rounded-full hover:cursor-pointer hover:scale-105 transition ease-in-out">
-                <FaInstagram />
-              </li>
-  </a>
-              <li className="p-2 bg-white rounded-full hover:cursor-pointer hover:scale-105 transition ease-in-out">
-                <FaGithub />
-              </li>
+              <a
+                href="https://www.instagram.com/cele.stialsparkles/?utm_source=qr&igsh=ano2NzJkaHVnZW5m#"
+                target="_blank"
+              >
+                <li className="p-2 bg-white rounded-full hover:cursor-pointer hover:scale-105 transition ease-in-out">
+                  <FaInstagram />
+                </li>
+              </a>
+              <a
+                href="https://github.com/kingdavidbenyah/celestialsparkles"
+                target="_blank"
+              >
+                <li className="p-2 bg-white rounded-full hover:cursor-pointer hover:scale-105 transition ease-in-out">
+                  <FaGithub />
+                </li>
+              </a>
             </ul>
           </ul>
-          <div className="flex flex-wrap gap-10">
-            <ul className="text-sub text-reviewsub space-y-[6px] tracking-wide">
-              <li className="text-black font-bold mb-2 text-body tracking-wider">
+          <div
+            className="space-y-3 grid grid-cols-2 tier2:grid-cols-3 md:grid-cols-4 gap-5 md:gap-10 w-fit mx-auto"
+            style={{ fontSize: "clamp(12px, 1.5vw, 14.5px)" }}
+          >
+            <ul className="text-sub space-y-1 tier1:space-y-1.5 tracking-wide">
+              <li
+                className="text-black font-semibold tier2:font-semibold tier2:font-bold mb-2 tracking-wider"
+                style={{ fontSize: "clamp(13px, 2.8vw, 15px)" }}
+              >
                 COMPANY
               </li>
               <li className="hover:cursor-pointer hover:text-black">About</li>
@@ -93,8 +107,11 @@ function Footer() {
               <li className="hover:cursor-pointer hover:text-black">Works</li>
               <li className="hover:cursor-pointer hover:text-black">Career</li>
             </ul>
-            <ul className="text-sub text-reviewsub space-y-[6px] tracking-wide">
-              <li className="text-black font-bold mb-2 text-body tracking-wider">
+            <ul className="text-sub space-y-[6px] tracking-wide">
+              <li
+                className="text-black font-semibold tier2:font-bold mb-2 tracking-wider"
+                style={{ fontSize: "clamp(13px, 2.8vw, 15px)" }}
+              >
                 HELP
               </li>
               <li className="hover:cursor-pointer hover:text-black">
@@ -110,8 +127,11 @@ function Footer() {
                 Privacy Policy
               </li>
             </ul>
-            <ul className="text-sub text-reviewsub space-y-2 tracking-wide">
-              <li className="text-black font-bold mb-2 text-body tracking-wider">
+            <ul className="text-sub space-y-1 tier1:space-y-1.5 tracking-wide">
+              <li
+                className="text-black font-semibold tier2:font-bold mb-2 tracking-wider"
+                style={{ fontSize: "clamp(13px, 2.8vw, 15px)" }}
+              >
                 FAQ
               </li>
               <li className="hover:cursor-pointer hover:text-black">Account</li>
@@ -123,8 +143,11 @@ function Footer() {
                 Payments
               </li>
             </ul>
-            <ul className="text-sub text-reviewsub space-y-[6px] tracking-wide">
-              <li className="text-black font-bold mb-2 text-body tracking-wider">
+            <ul className="text-sub space-y-1 tier1:space-y-1.5 tracking-wide">
+              <li
+                className="text-black font-semibold tier2:font-bold mb-2 text-body tracking-wider"
+                style={{ fontSize: "clamp(13px, 2.8vw, 15px)" }}
+              >
                 RESOURCES
               </li>
               <li className="hover:cursor-pointer hover:text-black">
@@ -142,9 +165,12 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <ul className="flex flex-wrap items-center justify-between py-10 max-w-6xl mx-auto border-t-2 border-black/10">
-          <li className="text-sub text-reviewsub">
-            Celestial Sparkles @1995-2025, All Rights Reserved
+        <ul className="w-fit mx-auto flex flex-col gap-3 items-center justify-between py-10 max-w-6xl mx-auto border-t-2 border-black/10">
+          <li
+            className="text-sub font-medium text-center"
+            style={{ fontSize: "clamp(12px, 1.5vw, 14.5px)" }}
+          >
+            Celestial | Sparkles @1995-2025, All Rights Reserved
           </li>
           <ul className="flex items-center gap-3">
             <li className="bg-white py-2 px-3 rounded-md hover:cursor-pointer">
