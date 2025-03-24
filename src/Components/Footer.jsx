@@ -68,9 +68,11 @@ function Footer() {
               <li className="p-2 bg-white rounded-full hover:cursor-pointer hover:scale-105 transition ease-in-out">
                 <FaXTwitter />
               </li>
+              <a href="https://www.facebook.com/profile.php?id=61574413956600&sfnsn=wa" target="_blank">
               <li className="p-2 bg-white rounded-full hover:cursor-pointer hover:scale-105 transition ease-in-out">
                 <FaFacebookF />
               </li>
+                </a>
               <a
                 href="https://www.instagram.com/cele.stialsparkles/?utm_source=qr&igsh=ano2NzJkaHVnZW5m#"
                 target="_blank"
