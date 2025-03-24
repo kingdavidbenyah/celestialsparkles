@@ -51,7 +51,7 @@ function Footer() {
             <Link to="/">
               <div>
                 <img
-                  src="../../public/assets/svg/CS logo.svg"
+                  src="assets/svg/CS logo.svg"
                   alt="CS logo"
                   style={{
                     width: "clamp(65px, 20vw, 100px)",
@@ -71,17 +71,18 @@ function Footer() {
               <li className="p-2 bg-white rounded-full hover:cursor-pointer hover:scale-105 transition ease-in-out">
                 <FaFacebookF />
               </li>
-
+<a href="https://www.instagram.com/cele.stialsparkles/?utm_source=qr&igsh=ano2NzJkaHVnZW5m#" target=_blank>
               <li className="p-2 bg-white rounded-full hover:cursor-pointer hover:scale-105 transition ease-in-out">
                 <FaInstagram />
               </li>
+  </a>
               <li className="p-2 bg-white rounded-full hover:cursor-pointer hover:scale-105 transition ease-in-out">
                 <FaGithub />
               </li>
             </ul>
           </ul>
           <div className="flex flex-wrap gap-10">
-            <ul className="text-sub text-reviewsub space-y-2 tracking-wide">
+            <ul className="text-sub text-reviewsub space-y-[6px] tracking-wide">
               <li className="text-black font-bold mb-2 text-body tracking-wider">
                 COMPANY
               </li>
@@ -92,7 +93,7 @@ function Footer() {
               <li className="hover:cursor-pointer hover:text-black">Works</li>
               <li className="hover:cursor-pointer hover:text-black">Career</li>
             </ul>
-            <ul className="text-sub text-reviewsub space-y-2 tracking-wide">
+            <ul className="text-sub text-reviewsub space-y-[6px] tracking-wide">
               <li className="text-black font-bold mb-2 text-body tracking-wider">
                 HELP
               </li>
@@ -122,7 +123,7 @@ function Footer() {
                 Payments
               </li>
             </ul>
-            <ul className="text-sub text-reviewsub space-y-2 tracking-wide">
+            <ul className="text-sub text-reviewsub space-y-[6px] tracking-wide">
               <li className="text-black font-bold mb-2 text-body tracking-wider">
                 RESOURCES
               </li>
@@ -141,42 +142,42 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <ul className="flex items-center justify-between py-10 max-w-6xl mx-auto border-t-2 border-black/10">
+        <ul className="flex flex-wrap items-center justify-between py-10 max-w-6xl mx-auto border-t-2 border-black/10">
           <li className="text-sub text-reviewsub">
-            Urban|Fits @1995-2025, All Rights Reserved
+            Celestial Sparkles @1995-2025, All Rights Reserved
           </li>
           <ul className="flex items-center gap-3">
             <li className="bg-white py-2 px-3 rounded-md hover:cursor-pointer">
               <img
-                src="../../public/assets/svg/visa.svg"
+                src="assets/svg/visa.svg"
                 alt="visa svg"
                 className="lg:w-15"
               />
             </li>
             <li className="bg-white py-2 px-3 rounded-md hover:cursor-pointer">
               <img
-                src="../../public/assets/svg/mastercard.svg"
+                src="assets/svg/mastercard.svg"
                 alt="mastercard svg"
                 className="lg:w-9"
               />
             </li>
             <li className="bg-white py-2 px-3 rounded-md hover:cursor-pointer">
               <img
-                src="../../public/assets/svg/paypal.svg"
+                src="assets/svg/paypal.svg"
                 alt="paypal svg"
                 className="lg:w-16"
               />
             </li>
             <li className="bg-white py-2 px-3 rounded-md hover:cursor-pointer">
               <img
-                src="../../public/assets/svg/applepay.svg"
+                src="assets/svg/applepay.svg"
                 alt="applepay svg"
                 className="lg:w-11"
               />
             </li>
             <li className="bg-white py-2 px-3 rounded-md hover:cursor-pointer">
               <img
-                src="../../public/assets/svg/googlepay.svg"
+                src="assets/svg/googlepay.svg"
                 alt="googlepay svg"
                 className="lg:w-11"
               />
