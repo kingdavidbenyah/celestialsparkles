@@ -8,51 +8,51 @@
   },
   {
     "id": 2,
-    "name": "Isabelle Thompson",
-    "review": "I’m in love with my new wig! The texture feels so natural, and the lace front blends perfectly. This is my go-to store for quality wigs.",
-    "rating": 5,
+    "name": "Amara Johnson",
+    "review": "The bracelet I purchased is gorgeous! It’s lightweight, elegant, and doesn’t tarnish. Perfect for both casual and formal wear.",
+    "rating": 4,
     "verified": false
   },
   {
     "id": 3,
-    "name": "Amara Johnson",
-    "review": "The bracelet I purchased is gorgeous! It’s lightweight, elegant, and doesn’t tarnish. Perfect for both casual and formal wear.",
-    "rating": 4,
-    "verified": true
-  },
-  {
-    "id": 4,
-    "name": "Lily Chen",
-    "review": "The hair extensions are amazing! They blend so well with my natural hair, and the quality is unbeatable. I receive compliments everywhere I go.",
-    "rating": 5,
-    "verified": false
-  },
-  {
-    "id": 5,
     "name": "Zara Patel",
     "review": "I purchased an anklet, and it’s absolutely beautiful. The detailing is exquisite, and it adds the perfect touch of glam to my summer outfits.",
     "rating": 5,
     "verified": true
   },
   {
-    "id": 6,
+    "id": 4,
     "name": "Hannah Wilson",
     "review": "The rings from Celestial Sparkles are so stylish! They don’t fade, and I love the intricate designs. Definitely coming back for more!",
     "rating": 4,
     "verified": false
   },
   {
-    "id": 7,
+    "id": 5,
     "name": "Emma Rodriguez",
     "review": "I got a pair of earrings, and they’re stunning! Super lightweight yet luxurious. I can wear them all day without discomfort.",
     "rating": 5,
     "verified": true
   },
   {
-    "id": 8,
+    "id": 6,
     "name": "Mia Adams",
-    "review": "The hair care products are top-tier! My hair has never felt so soft and healthy. Definitely a must-have for anyone who loves their hair.",
+    "review": "I ordered a charm bracelet, and it's my new favorite piece! The charms are detailed, and the quality is fantastic.",
     "rating": 5,
     "verified": true
+  },
+  {
+    "id": 7,
+    "name": "Lily Carter",
+    "review": "The jewelry sets are so elegant! I bought one for a special occasion, and I received so many compliments.",
+    "rating": 4,
+    "verified": true
+  },
+  {
+    "id": 8,
+    "name": "Natalie Brooks",
+    "review": "I love the attention to detail in the rings and necklaces! The craftsmanship is incredible, and they make perfect gifts.",
+    "rating": 5,
+    "verified": false
   }
 ]

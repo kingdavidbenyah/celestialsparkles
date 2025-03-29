@@ -10,42 +10,42 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <section className="font-poppins">
-      <div className=" mt-45 md:mt-32 pb-5 relative px-3 tier1:px-[20px] w-full bg-gradient-to-r from-[#ffffff] to-[#9668f3] ">
-        <ul className="absolute left-[5%] right-[5%] md:right-[8%] lg:right-[3%] xl:right-[10%] md:left-[8%] lg:left-[3%] xl:left-[10%] top-[-20%] tier3:top-[-13.5%] bg-black flex flex-col tier3:flex-row gap-5 justify-between items-center px-5 tier1:px-10 tier2:px-12  lg:px-16 py-7 md:py-8 max-w-6xl rounded-4xl">
-          <li
-            style={{ fontSize: "clamp(23px, 2.8vw, 35px)" }}
-            className="leading-10 font-mont font-extrabold text-white w-full md:max-w-[500px] text-left"
-          >
-            BE THE FIRST TO KNOW ABOUT HOT OFFERS!
-          </li>
-          <ul className="grid grid-cols-1 gap-2 w-full lg:w-auto">
-            <ul className="relative">
-              <li className="absolute left-4 top-1/3 text-base text-black/40">
-                <TfiEmail />
-              </li>
-              <li
-                className="text-reviewsub  text-black/90  font-normal bg-white rounded-3xl"
-                style={{ fontSize: "clamp(13.5px, 1.2vw, 14.5px)" }}
-              >
-                <input
-                  type="email"
-                  placeholder="Enter your email address"
-                  required
-                  className="px-10 py-3 outline-none w-full md:w-auto"
-                />
-              </li>
-            </ul>
-            <li>
-              <button
-                style={{ fontSize: "clamp(13.5px, 1.2vw, 14.5px)" }}
-                className="w-full  lg:px-25 py-3 hover:cursor-pointer hover:bg-white/93  text-center text-black font-medium bg-white rounded-3xl"
-              >
-                Subscribe & Save!
-              </button>
+      <ul className="w-fit mx-5 tier1:mx-10 tier2:mx-15 xl:mx-auto bg-black flex flex-col tier3:flex-row gap-5 justify-between items-center px-5 tier1:px-10 tier2:px-12  lg:px-16 py-7 md:py-8  xl:max-w-6xl rounded-4xl">
+        <li
+          style={{ fontSize: "clamp(23px, 2.8vw, 35px)" }}
+          className="leading-10 xl:leading-11 font-mont font-extrabold text-white w-full lg:max-w-[450px] text-left"
+        >
+          BE THE FIRST TO KNOW ABOUT HOT OFFERS!
+        </li>
+        <ul className="grid grid-cols-1 gap-2 w-full lg:w-auto">
+          <ul className="relative">
+            <li className="absolute left-4 top-1/3 text-base text-black/40">
+              <TfiEmail />
+            </li>
+            <li
+              className="text-reviewsub  text-black/90  font-normal bg-white rounded-3xl"
+              style={{ fontSize: "clamp(13.5px, 1.2vw, 14.5px)" }}
+            >
+              <input
+                type="email"
+                placeholder="Enter your email address"
+                required
+                className="px-10 py-3 outline-none w-full md:w-auto"
+              />
             </li>
           </ul>
+          <li>
+            <button
+              style={{ fontSize: "clamp(13.5px, 1.2vw, 14.5px)" }}
+              className="w-full  lg:px-25 py-3 hover:cursor-pointer hover:bg-white/93  text-center text-black font-medium bg-white rounded-3xl"
+            >
+              Subscribe & Save!
+            </button>
+          </li>
         </ul>
-        <div className="px-5 pt-30 pb-15 flex flex-col xl:flex-row items-start xl:items-center gap-10 ">
+      </ul>
+      <div className="mt-10 pb-5 relative px-3 tier1:px-[20px] w-full bg-gradient-to-r from-[#ffffff] to-[#9668f3] ">
+        <div className="px-5 pt-15 pb-15 flex flex-col xl:flex-row items-start xl:items-center gap-10 w-fit mx-auto ">
           <ul className="grid grid-cols-1 gap-2 mx-auto">
             {/* Logo */}
             <Link to="/">
@@ -95,7 +95,7 @@ function Footer() {
           >
             <ul className="text-sub space-y-1 tier1:space-y-1.5 tracking-wide">
               <li
-                className="text-black font-semibold tier2:font-semibold tier2:font-bold mb-2 tracking-wider"
+                className="text-black font-semibold tier2:font-bold mb-2 tracking-wider"
                 style={{ fontSize: "clamp(13px, 2.8vw, 15px)" }}
               >
                 COMPANY
@@ -107,7 +107,7 @@ function Footer() {
               <li className="hover:cursor-pointer hover:text-black">Works</li>
               <li className="hover:cursor-pointer hover:text-black">Career</li>
             </ul>
-            <ul className="text-sub space-y-[6px] tracking-wide">
+            <ul className="text-sub space-y-1 tier1:space-y-1.5 tracking-wide">
               <li
                 className="text-black font-semibold tier2:font-bold mb-2 tracking-wider"
                 style={{ fontSize: "clamp(13px, 2.8vw, 15px)" }}
@@ -165,47 +165,47 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <ul className="w-fit mx-auto flex flex-col gap-3 items-center justify-between py-10 max-w-6xl mx-auto border-t-2 border-black/10">
+        <ul className="w-full tier2:w-2/3 mx-auto flex flex-col gap-3 items-center justify-between py-10 max-w-6xl border-t-2 border-black/10">
           <li
             className="text-sub font-medium text-center"
             style={{ fontSize: "clamp(12px, 1.5vw, 14.5px)" }}
           >
             Celestial | Sparkles @1995-2025, All Rights Reserved
           </li>
-          <ul className="flex items-center gap-3">
+          <ul className="flex flex-wrap justify-center  items-center gap-3">
             <li className="bg-white py-2 px-3 rounded-md hover:cursor-pointer">
               <img
                 src="assets/svg/visa.svg"
                 alt="visa svg"
-                className="lg:w-15"
+                className="w-10 md:w-13.5"
               />
             </li>
             <li className="bg-white py-2 px-3 rounded-md hover:cursor-pointer">
               <img
                 src="assets/svg/mastercard.svg"
                 alt="mastercard svg"
-                className="lg:w-9"
+                className="w-7 md:w-8"
               />
             </li>
             <li className="bg-white py-2 px-3 rounded-md hover:cursor-pointer">
               <img
                 src="assets/svg/paypal.svg"
                 alt="paypal svg"
-                className="lg:w-16"
+                className="w-10 md:w-16"
               />
             </li>
             <li className="bg-white py-2 px-3 rounded-md hover:cursor-pointer">
               <img
                 src="assets/svg/applepay.svg"
                 alt="applepay svg"
-                className="lg:w-11"
+                className="w-7 md:w-11"
               />
             </li>
             <li className="bg-white py-2 px-3 rounded-md hover:cursor-pointer">
               <img
                 src="assets/svg/googlepay.svg"
                 alt="googlepay svg"
-                className="lg:w-11"
+                className="w-8 md:w-11"
               />
             </li>
           </ul>

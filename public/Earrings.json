@@ -1,0 +1,136 @@
+[
+  {
+    "id": 1,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/45/P00995490.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/45/P00995490_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/45/P00995490_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/45/P00995490_d3.jpg",
+    "brand": "Dolce& Gabbana",
+    "name": "DG cross hoop earrings",
+    "price": 330,
+    "rating": 4.2,
+    "discount": 30,
+    "availability": true
+  },
+
+  {
+    "id": 2,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/2d/P00635269.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/2d/P00635269_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/2d/P00635269_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/2d/P00635269_d3.jpg",
+    "brand": "Loewe",
+    "name": "Sterling earrings",
+    "price": 410,
+    "rating": 3.2,
+    "discount": 35,
+    "availability": true
+  },
+
+  {
+    "id": 3,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/f4/P01018912.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/f4/P01018912_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/f4/P01018912_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/f4/P01018912_d3.jpg",
+    "brand": "Zimmermann",
+    "name": "Bloom hoop earrings",
+    "price": "250",
+    "rating": 4.5,
+    "discount": 6,
+    "availability": false
+  },
+
+  {
+    "id": 4,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/4a/P01016754.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/4a/P01016754_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/4a/P01016754_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/4a/P01016754_d3.jpg",
+    "brand": "Chloé",
+    "name": "Shells pearls earrings",
+    "price": 495,
+    "rating": 4.1,
+    "discount": 24,
+    "availability": true
+  },
+
+  {
+    "id": 5,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/32/P01009215.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/32/P01009215_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/32/P01009215_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/32/P01009215_d3.jpg",
+    "brand": "Lemaire",
+    "name": "Short drop earrings",
+    "price": 285,
+    "rating": 4.4,
+    "discount": 15,
+    "availability": true
+  },
+  {
+    "id": 6,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/37/P01039533.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/37/P01039533_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/37/P01039533_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/37/P01039533_d3.jpg",
+    "brand": "Valentino",
+    "name": "Chez Cherryfic earrings",
+    "price": 410,
+    "rating": 3.8,
+    "discount": 35,
+    "availability": true
+  },
+  {
+    "id": 7,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/f3/P00993653.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/f3/P00993653_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/f3/P00993653_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/f3/P00993653_d3.jpg",
+    "brand": "Jil Sander",
+    "name": "FW5 earrings",
+    "price": 380,
+    "rating": 3.9,
+    "discount": 15,
+    "availability": false
+  },
+  {
+    "id": 8,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/4f/P01004774.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/4f/P01004774_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/4f/P01004774_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/4f/P01004774_d3.jpg",
+    "brand": "Zimmermann",
+    "name": "Flow hoop earrings",
+    "price": 210,
+    "rating": 3.3,
+    "discount": 5,
+    "availability": true
+  },
+  {
+    "id": 9,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/c9/P01018341.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/c9/P01018341_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/c9/P01018341_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/c9/P01018341_d3.jpg",
+    "brand": "max mara",
+    "name": "Fedra earrings",
+    "price": 220,
+    "rating": 4.8,
+    "discount": 17,
+    "availability": false
+  },
+  {
+    "id": 10,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/b9/P01039174.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/b9/P01039174_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/b9/P01039174_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/b9/P01039174_d3.jpg",
+    "brand": "givenchy",
+    "name": "Curve earrings",
+    "price": 605,
+    "rating": 4.2,
+    "discount": 27,
+    "availability": true
+  }
+]

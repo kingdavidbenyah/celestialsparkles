@@ -1,10 +1,14 @@
 import { useState } from "react";
 import { FiSearch } from "react-icons/fi";
 import { IoSparklesSharp } from "react-icons/io5";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [isShowing, setIsShowing] = useState(true);
+
+  const location = useLocation(); // Get the current route
+
+  // const [isActive, setIsActive] = useState(false);
   return (
     <section className="fixed w-full z-40">
       {isShowing && (
@@ -47,7 +51,12 @@ function Navbar() {
               </div>
 
               {/* Logo */}
-              <Link to="/">
+              <Link
+                to="/"
+                onClick={() => {
+                  setIsOpen((isOpen = false));
+                }}
+              >
                 <div className=" text-[#8c53ff]">
                   <img
                     src="assets/svg/CS logo.svg"
@@ -62,19 +71,63 @@ function Navbar() {
 
               {/* Nav Links for lg screens */}
               <ul className="hidden lg:flex space-x-6 text-gray-700">
-                <li className="hover:text-primary hover:cursor-pointer">
-                  Shop
-                </li>
-
-                <li className="hover:text-primary hover:cursor-pointer">
-                  On Sale
-                </li>
-                <li className="hover:text-primary hover:cursor-pointer">
-                  New Arrivals
-                </li>
-                <li className="hover:text-primary hover:cursor-pointer">
-                  Brands
-                </li>
+                <Link to="/shop">
+                  <li
+                    className={`${
+                      location.pathname === "/shop" ? "" : "hover:text-primary"
+                    } hover:cursor-pointer flex flex-col gap-[1px] items-center`}
+                  >
+                    {" "}
+                    Shop
+                    {location.pathname === "/shop" && (
+                      <span className="w-2.5 h-0.5 rounded-full bg-primary"></span>
+                    )}
+                  </li>
+                </Link>
+                <Link to="/onsale">
+                  <li
+                    className={`${
+                      location.pathname === "/onsale"
+                        ? ""
+                        : "hover:text-primary"
+                    } hover:cursor-pointer flex flex-col gap-[1px] items-center`}
+                  >
+                    {" "}
+                    On Sale
+                    {location.pathname === "/onsale" && (
+                      <span className="w-2.5 h-0.5 rounded-full bg-primary"></span>
+                    )}
+                  </li>
+                </Link>
+                <Link to="newarrivals">
+                  <li
+                    className={`${
+                      location.pathname === "/newarrivals"
+                        ? ""
+                        : "hover:text-primary"
+                    } hover:cursor-pointer flex flex-col gap-[1px] items-center`}
+                  >
+                    {" "}
+                    New Arrivals
+                    {location.pathname === "/newarrivals" && (
+                      <span className="w-2.5 h-0.5 rounded-full bg-primary"></span>
+                    )}
+                  </li>
+                </Link>
+                <Link to="brands">
+                  <li
+                    className={`${
+                      location.pathname === "/brands"
+                        ? ""
+                        : "hover:text-primary"
+                    } hover:cursor-pointer flex flex-col gap-[1px] items-center`}
+                  >
+                    Brands
+                    {location.pathname === "/brands" && (
+                      <span className="w-2.5 h-0.5 rounded-full bg-primary"></span>
+                    )}
+                  </li>
+                </Link>
               </ul>
             </div>
 
@@ -82,41 +135,86 @@ function Navbar() {
             {isOpen && (
               <div
                 className="lg:hidden mt-5 mb-3 bg-gray-100 p-4 rounded-lg text-gray-600 order-1 w-full "
-                style={{ fontSize: "clamp(13px, 2.8vw, 15px)" }}
+                style={{ fontSize: "clamp(13px, 2vw, 15px)" }}
               >
-                <ul className="space-y-4 text-center">
-                  <li>
-                    <a
-                      href="#"
-                      className="block hover:text-[#8c53ff] focus:text-[#8c53ff]"
+                <ul className="grid grid-cols-1 gap-3 md:gap-4 text-center">
+                  <Link
+                    to="/shop"
+                    onClick={() => {
+                      setIsOpen(!isOpen);
+                    }}
+                  >
+                    <li
+                      className={`${
+                        location.pathname === "/shop"
+                          ? ""
+                          : "hover:text-primary"
+                      } hover:cursor-pointer flex flex-col gap-[1px] items-center`}
                     >
                       Shop
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="block hover:text-[#8c53ff] focus:text-[#8c53ff]"
+                      {location.pathname === "/shop" && (
+                        <span className="w-3 h-0.5 rounded-full bg-primary"></span>
+                      )}
+                    </li>
+                  </Link>
+                  <Link
+                    to="/onsale"
+                    onClick={() => {
+                      setIsOpen(!isOpen);
+                    }}
+                  >
+                    <li
+                      className={`${
+                        location.pathname === "/onsale"
+                          ? ""
+                          : "hover:text-primary"
+                      } hover:cursor-pointer flex flex-col gap-[1px] items-center`}
                     >
+                      {" "}
                       On Sale
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="block hover:text-[#8c53ff] focus:text-[#8c53ff]"
+                      {location.pathname === "/onsale" && (
+                        <span className="w-3 h-0.5 rounded-full bg-primary"></span>
+                      )}
+                    </li>
+                  </Link>
+                  <Link
+                    to="newarrivals"
+                    onClick={() => {
+                      setIsOpen(!isOpen);
+                    }}
+                  >
+                    <li
+                      className={`${
+                        location.pathname === "/newarrivals"
+                          ? ""
+                          : "hover:text-primary"
+                      } hover:cursor-pointer flex flex-col gap-[1px] items-center`}
                     >
                       New Arrivals
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="block hover:text-[#8c53ff] focus:text-[#8c53ff]"
+                      {location.pathname === "/newarrivals" && (
+                        <span className="w-3 h-0.5 rounded-full bg-primary"></span>
+                      )}
+                    </li>
+                  </Link>
+                  <Link
+                    to="brands"
+                    onClick={() => {
+                      setIsOpen(!isOpen);
+                    }}
+                  >
+                    <li
+                      className={`${
+                        location.pathname === "/brands"
+                          ? ""
+                          : "hover:text-primary"
+                      } hover:cursor-pointer flex flex-col gap-[1px] items-center`}
                     >
                       Brands
-                    </a>
-                  </li>
+                      {location.pathname === "/brands" && (
+                        <span className="w-3 h-0.5 rounded-full bg-primary"></span>
+                      )}
+                    </li>
+                  </Link>
                 </ul>
               </div>
             )}

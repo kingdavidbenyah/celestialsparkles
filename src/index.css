@@ -5,6 +5,7 @@
   --breakpoint-tier1: 450px;
   --breakpoint-tier2: 537px;
   --breakpoint-tier3: 650px;
+  --breakpoint-tier4: 900px;
   --font-poppins: Poppins, sans-serif;
   --font-raleway: Raleway, sans-serif;
   --font-italianno: Italianno, sans-serif;
@@ -17,9 +18,20 @@
   --text-review: clamp(14px, 2.2vw, 18px);
   --text-reviewsub: clamp(10px, 1.5vw, 13.5px);
   --text-sectiontitle: clamp(23px, 3.5vw, 30px);
+  --text-sectiontitlesub: clamp(14px, 2.4vw, 17px);
+
+  --text-pagetitle: clamp(23px, 3.5vw, 35px);
 
   --color-sub: rgb(0, 0, 0, 0.6);
   --color-primary: #9668f3;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.gradientbg {
+  background: linear-gradient(to right, #ffffff, #9668f3);
 }
 
 .line-svg {
@@ -104,4 +116,9 @@
   .hexcover {
     gap: 12px;
   }
+}
+
+.absolutecenter {
+  left: 50%;
+  transform: translateX(-50%);
 }

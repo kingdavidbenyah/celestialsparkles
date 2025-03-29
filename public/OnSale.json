@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/08/P00859244.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/08/P00859244_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/08/P00859244_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/08/P00859244_d3.jpg",
+    "brand": "saint laurent",
+    "name": "Cassandre embellished bracelet",
+    "price": 420,
+    "rating": 4.2,
+    "discount": 42,
+    "availability": true,
+    "amountleft": 14,
+    "amountsold": 35
+  },
+
+  {
+    "id": 2,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/f8/P00900371.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/f8/P00900371_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/f8/P00900371_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/f8/P00900371_d3.jpg",
+    "brand": "valentino",
+    "name": "VLogo Signature earrings",
+    "price": 410,
+    "rating": 3.2,
+    "discount": 40,
+    "availability": true,
+    "amountleft": 5,
+    "amountsold": 10
+  },
+
+  {
+    "id": 3,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/02/P00995495.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/02/P00995495_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/02/P00995495_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/02/P00995495_d3.jpg",
+    "brand": "dolce& gabbana",
+    "name": "DG embellished necklace",
+    "price": "500",
+    "rating": 4.5,
+    "discount": 50,
+    "availability": true,
+    "amountleft": 15,
+    "amountsold": 40
+  },
+
+  {
+    "id": 4,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/8f/P01053720.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/8f/P01053720_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/8f/P01053720_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/8f/P01053720_d3.jpg",
+    "brand": "CHLOÉ",
+    "name": "Faux pearl necklace",
+    "price": 300,
+    "rating": 4.1,
+    "discount": 19,
+    "availability": true,
+    "amountleft": 10,
+    "amountsold": 20
+  }
+]

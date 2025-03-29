@@ -1,0 +1,136 @@
+[
+  {
+    "id": 1,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/7c/P00833592.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/7c/P00833592_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/7c/P00833592_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/7c/P00833592_d3.jpg",
+    "brand": "Saint Laurent",
+    "name": "YSL chain bracelet",
+    "price": 405,
+    "rating": 4.2,
+    "discount": 35,
+    "availability": true
+  },
+
+  {
+    "id": 2,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/fe/P00997280.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/fe/P00997280_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/fe/P00997280_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/fe/P00997280_d3.jpg",
+    "brand": "Chloé",
+    "name": "Eclectic bracelet",
+    "price": 435,
+    "rating": 3.2,
+    "discount": 45,
+    "availability": true
+  },
+
+  {
+    "id": 3,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/40/P00879958.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/40/P00879958_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/40/P00879958_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/40/P00879958_d3.jpg",
+    "brand": "Max Mara",
+    "name": "Fervida chain bracelet",
+    "price": "160",
+    "rating": 4.5,
+    "discount": 6,
+    "availability": false
+  },
+
+  {
+    "id": 4,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/47/P01041357.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/47/P01041357_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/47/P01041357_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/47/P01041357_d3.jpg",
+    "brand": "loewe",
+    "name": "Pebble sterling bracelet",
+    "price": 380,
+    "rating": 4.1,
+    "discount": 24,
+    "availability": true
+  },
+
+  {
+    "id": 5,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/bf/P00995489.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/bf/P00995489_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/bf/P00995489_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/bf/P00995489_d3.jpg",
+    "brand": "Dolce& Gabbana",
+    "name": "Cross crystal bracelet",
+    "price": 250,
+    "rating": 4.4,
+    "discount": 5,
+    "availability": true
+  },
+  {
+    "id": 6,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/93/P00881017.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/93/P00881017_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/93/P00881017_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/93/P00881017_d3.jpg",
+    "brand": "gucci",
+    "name": "Blondie chain bracelet",
+    "price": 335,
+    "rating": 3.8,
+    "discount": 9,
+    "availability": true
+  },
+  {
+    "id": 7,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/06/P01013388.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/06/P01013388_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/06/P01013388_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/06/P01013388_d3.jpg",
+    "brand": "givenchy",
+    "name": "4G pearl bracelet",
+    "price": 385,
+    "rating": 3.9,
+    "discount": 25,
+    "availability": false
+  },
+  {
+    "id": 8,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/14/P00949370.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/14/P00949370_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/14/P00949370_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/14/P00949370_d3.jpg",
+    "brand": "Balenciaga",
+    "name": "24/7 cuff bracelet",
+    "price": 630,
+    "rating": 3.3,
+    "discount": 25,
+    "availability": true
+  },
+  {
+    "id": 9,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/53/P00705591.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/53/P00705591_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/53/P00705591_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/53/P00705591_d3.jpg",
+    "brand": "Valentino",
+    "name": "VLogo embellished bracelet",
+    "price": 295,
+    "rating": 4.8,
+    "discount": 17,
+    "availability": true
+  },
+  {
+    "id": 10,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/b9/P00523821.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/b9/P00523821_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/b9/P00523821_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/b9/P00523821_d3.jpg",
+    "brand": "mcqueen",
+    "name": "Faux pearl chain bracelet",
+    "price": 329,
+    "rating": 4.2,
+    "discount": 14,
+    "availability": true
+  }
+]

@@ -10,7 +10,7 @@
     "price": 210,
     "rating": 4,
     "discount": 10,
-    "availability": true
+    "availability": false
   },
 
   {
@@ -29,17 +29,18 @@
 
   {
     "id": 3,
-    "image": "https://www.mytheresa.com/media/1094/1238/100/da/P00940564.jpg",
-    "img1": "https://www.mytheresa.com/media/1094/1238/100/da/P00940564_d2.jpg",
-    "img2": "https://www.mytheresa.com/media/1094/1238/100/da/P00940564_d3.jpg",
-    "img3": "https://www.mytheresa.com/media/1094/1238/100/da/P00940564_d4.jpg",
-    "brand": "GUCCI",
-    "name": "Blondie enamel ring",
-    "price": 280,
-    "rating": 3.5,
-    "discount": 17,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/9b/P00997276.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/9b/P00997276_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/9b/P00997276_d3.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/9b/P00997276_d4.jpg",
+    "brand": "CHLOÉ",
+    "name": "Eclectic ring",
+    "price": 295,
+    "rating": 4.5,
+    "discount": 22,
     "availability": true
   },
+
   {
     "id": 4,
     "image": "https://www.mytheresa.com/media/1094/1238/100/7d/P00811779.jpg",
@@ -56,7 +57,7 @@
 
   {
     "id": 5,
-    "image": "https://www.mytheresa.com/media/1094/1238/100/7d/P00811779_d3.jpg",
+    "image": "https://www.mytheresa.com/media/1094/1238/100/ed/P00877187.jpg",
     "img1": "https://www.mytheresa.com/media/1094/1238/100/ed/P00877187_d2.jpg",
     "img2": "https://www.mytheresa.com/media/1094/1238/100/ed/P00877187_d3.jpg",
     "img3": "https://www.mytheresa.com/media/1094/1238/100/ed/P00877187_d4.jpg",
@@ -65,7 +66,7 @@
     "price": 215,
     "rating": 4.9,
     "discount": 20,
-    "availability": true
+    "availability": false
   },
   {
     "id": 6,
@@ -74,11 +75,11 @@
     "img2": "https://www.mytheresa.com/media/1094/1238/100/21/P00959848_d1.jpg",
     "img3": "https://www.mytheresa.com/media/1094/1238/100/21/P00959848_d3.jpg",
     "brand": "ZIMMERMANN",
-    "name": "embellished gold-plated ring",
+    "name": "embellished gold ring",
     "price": 190,
-    "rating": 3.6,
+    "rating": 3,
     "discount": 6.5,
-    "availability": false
+    "availability": true
   },
   {
     "id": 7,
@@ -91,7 +92,7 @@
     "price": 300,
     "rating": 3.9,
     "discount": 25,
-    "availability": false
+    "availability": true
   },
   {
     "id": 8,
@@ -100,9 +101,9 @@
     "img2": "https://www.mytheresa.com/media/1094/1238/100/b2/P00927904_d1.jpg",
     "img3": "https://www.mytheresa.com/media/1094/1238/100/b2/P00927904_d3.jpg",
     "brand": "OSCAR DE LA RENTA",
-    "name": "Coral Heart embellished ring",
+    "name": "Coral Heart ring",
     "price": 255,
-    "rating": 3.3,
+    "rating": 3,
     "discount": 13,
     "availability": true
   },
@@ -117,6 +118,19 @@
     "price": 295,
     "rating": 4.6,
     "discount": 12,
+    "availability": true
+  },
+  {
+    "id": 10,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/da/P00940564.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/da/P00940564_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/da/P00940564_d3.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/da/P00940564_d4.jpg",
+    "brand": "GUCCI",
+    "name": "Blondie enamel ring",
+    "price": 280,
+    "rating": 3.5,
+    "discount": 17,
     "availability": false
   }
 ]

@@ -1,117 +1,153 @@
 import { useState, useEffect } from "react";
-import ProductSection from "./ProductSection";
 import { FaAngleRight } from "react-icons/fa6";
 import { FaAngleLeft } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import CustomerReviews from "./CustomerReviews.jsx";
+import Homepageproducts from "./Homepageproducts.jsx";
+
 function Homepage() {
-  const [datas, setDatas] = useState([]);
+  // fetching reviews
+  const [reviews, showReviews] = useState([]);
   const fetchReviews = async () => {
     const reviews = await fetch("CustomerReviews.json");
-    const items = await reviews.json();
-    console.log(items);
-    setDatas(items);
+    const reviewsjson = await reviews.json();
+    showReviews(reviewsjson);
   };
+  // fetching rings
+  const [rings, showRings] = useState([]);
+  const fetchRings = async () => {
+    const rings = await fetch("Rings.json");
+    const ringsjson = await rings.json();
+    showRings(ringsjson);
+  };
+  // fetching necklaces
+  const [necklaces, showNecklaces] = useState([]);
+  const fetchNecklaces = async () => {
+    const necklace = await fetch("Necklaces.json");
+    const necklacejson = await necklace.json();
+    showNecklaces(necklacejson);
+  };
+  // fetching earrings
+  const [earrings, showEarrings] = useState([]);
+  const fetchEarrings = async () => {
+    const earring = await fetch("Earrings.json");
+    const earringjson = await earring.json();
+    showEarrings(earringjson);
+  };
+  // fetching bracelets
+  const [bracelets, showBracelets] = useState([]);
+  const fetchBracelets = async () => {
+    const bracelet = await fetch("Bracelets.json");
+    const braceletjson = await bracelet.json();
+    showBracelets(braceletjson);
+  };
+
   useEffect(() => {
     fetchReviews();
+    fetchRings();
+    fetchNecklaces();
+    fetchEarrings();
+    fetchBracelets();
   }, []);
 
-  const [cartCount, setCartCount] = useState(0);
-  const handleCartCount = () => {
-    setCartCount(cartCount + 1);
-  };
+  // const [cartCount, setCartCount] = useState(0);
+  // const handleCartCount = () => {
+  //   setCartCount(cartCount + 1);
+  // };
 
   return (
     <div className="text-body font-poppins">
       {/* Hero Section */}
-      <section className="min-w-[320px] pt-[150px] tier1:pt-[165px] tier2:pt-[180px] xl:pt-[50px] bg-gradient-to-r from-[#ffffff] to-[#9668f3]  flex flex-col xl:flex-row gap-5 lg:gap-0 items-center justify-around">
-        {/* Info */}
-        <div className="pb-10 space-y-5 w-fit max-w-[680px] order-1 lg:order-0">
-          <ul className="text-center xl:text-left space-y-5 px-6 tier1:px-10 w-fit">
-            {/* heading */}
-            <li
-              className="font-raleway font-bold tier2:font-extrabold leading-8 md:leading-15  tracking-wide "
-              style={{ fontSize: "clamp(28px, 6.5vw, 55px)" }}
-            >
-              Welcome to Celestial Sparkles
-            </li>
-            <li className="max-w-[545px] text-sub">
-              Explore our exclusive collection of premium jewelry, wigs, and
-              accessories designed for the modern queen. Elevate your style with
-              elegance.
-            </li>
-            {/* CTA */}
-            <li className="text-btn w-full flex justify-center xl:justify-start">
-              <button className="py-[14px] tier1:py-4 px-14 w-full tier2:w-auto rounded-4xl bg-black hover:bg-[rgb(0,0,0,0.8)] hover:cursor-pointer text-white">
-                Shop Now
-              </button>
-            </li>
-          </ul>
-          <ul className="text-center xl:text-left tier1:px-10 flex flex-wrap justify-center items-center gap-4 xl:gap-7 px-3 lg:px-10 lg:justify-start">
-            <li className="text-stat grid grid-cols-1 font-medium ">
-              150+
-              <span
-                className="text-sub text-body
-            "
+      <section className="gradientbg w-full">
+        <div className="min-w-[320px] w-fit mx-auto pt-[150px] tier1:pt-[165px] tier2:pt-[180px] xl:pt-[50px]  flex flex-col xl:flex-row gap-5 lg:gap-0 items-center justify-around">
+          {/* Info */}
+          <div className="pb-10 space-y-5 w-fit max-w-[680px] order-1 lg:order-0">
+            <ul className="text-center xl:text-left space-y-5 px-6 tier1:px-10 w-fit">
+              {/* heading */}
+              <li
+                className="font-raleway font-bold tier2:font-extrabold leading-8 tier1:leading-9 tier2:leading-10 tier3:leading-12 md:leading-14 tier4:leading-15 xl:leading-15.5  tracking-wide "
+                style={{ fontSize: "clamp(28px, 6vw, 53.5px)" }}
               >
-                International Brands
-              </span>
-            </li>
-            <li>
-              <img src="assets/svg/Line.svg" alt="line svg" />
-            </li>
-            <li className="text-stat grid grid-cols-1 font-medium">
-              2,000+
-              <span
-                className="text-sub text-body
+                Welcome to Celestial Sparkles
+              </li>
+              <li className="max-w-[545px] text-sub">
+                Explore our exclusive collection of premium jewelry, wigs, and
+                accessories designed for the modern queen. Elevate your style
+                with elegance.
+              </li>
+              {/* CTA */}
+              <li className="text-btn w-full flex justify-center xl:justify-start">
+                <button className="py-[14px] tier1:py-4 px-14 w-full tier2:w-auto rounded-4xl bg-black hover:bg-[rgb(0,0,0,0.8)] hover:cursor-pointer text-white">
+                  Shop Now
+                </button>
+              </li>
+            </ul>
+            <ul className="text-center xl:text-left tier1:px-10 flex flex-wrap justify-center items-center gap-4 xl:gap-7 px-3 lg:px-10 lg:justify-start">
+              <li className="text-stat grid grid-cols-1 font-medium ">
+                150+
+                <span
+                  className="text-sub text-body
             "
-              >
-                High-Quality Products
-              </span>
-            </li>
-            <li>
-              <img
-                src="assets/svg/Line.svg"
-                alt="line svg"
-                className="line-svg"
-              />
-            </li>
-            <li className="text-stat grid grid-cols-1 font-medium">
-              3,000+
-              <span
-                className="text-sub text-body
+                >
+                  International Brands
+                </span>
+              </li>
+              <li>
+                <img src="assets/svg/Line.svg" alt="line svg" />
+              </li>
+              <li className="text-stat grid grid-cols-1 font-medium">
+                2,000+
+                <span
+                  className="text-sub text-body
             "
-              >
-                Happy Customers
-              </span>
-            </li>
-          </ul>
-        </div>
-        {/* Image */}
-        <div className="lg:h-screen flex items-center">
-          <div className="flex flex-col items-center justify-center gap-2 max-w-400 w-fit">
-            <div className="flex hexcover">
-              <div>
+                >
+                  High-Quality Products
+                </span>
+              </li>
+              <li>
                 <img
-                  src="assets/pics/hex1.jpg"
-                  alt="hex 1"
-                  className=" object-cover object-center hexclip"
+                  src="assets/svg/Line.svg"
+                  alt="line svg"
+                  className="line-svg"
                 />
+              </li>
+              <li className="text-stat grid grid-cols-1 font-medium">
+                3,000+
+                <span
+                  className="text-sub text-body
+            "
+                >
+                  Happy Customers
+                </span>
+              </li>
+            </ul>
+          </div>
+          {/* Image */}
+          <div className="lg:h-screen flex items-center">
+            <div className="flex flex-col items-center justify-center gap-2 max-w-400 w-fit">
+              <div className="flex hexcover">
+                <div>
+                  <img
+                    src="assets/pics/hex1.jpg"
+                    alt="hex 1"
+                    className=" object-cover object-center hexclip"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="assets/pics/hex2.jpg"
+                    alt="hex 2"
+                    className=" object-top object-cover hexclip"
+                  />
+                </div>
               </div>
               <div>
                 <img
-                  src="assets/pics/hex2.jpg"
-                  alt="hex 2"
-                  className=" object-top object-cover hexclip"
+                  src="assets/pics/hex3.jpg"
+                  alt="hex 3"
+                  className="object-top object-cover hexclip hex3"
                 />
               </div>
-            </div>
-            <div>
-              <img
-                src="assets/pics/hex3.jpg"
-                alt="hex 3"
-                className="object-top object-cover hexclip hex3"
-              />
             </div>
           </div>
         </div>
@@ -135,47 +171,96 @@ function Homepage() {
         </li>
       </ul>
 
-      <section className="min-w-[320px] max-w-7xl mx-auto">
-        {/* New Collection */}
-        <ProductSection
-          sectionTitle="NEW COLLECTION"
-          json="Rings.json"
-          button="false"
-          handleCartCount={handleCartCount}
-          cartCount={cartCount}
-        />
-        <div className="border-1 border-black/10 mx-auto w-[65%]"></div>
-        {/* Top Selling
-        <ProductSection
-          sectionTitle="BEST SELLING"
-          json="TopSelling.json"
-          button="true"
-        /> */}
+      {/* New Arrivals */}
+      <section className="min-w-[320px] max-w-7xl mx-auto pt-20 pb-12">
+        <p className="font-raleway text-center text-sectiontitle font-bold xl:font-extrabold  px-5 lg:px-24">
+          RINGS
+        </p>
+        <div className="flex flex-wrap items-center justify-center gap-5 py-10 px-2 tier2:px-10 ">
+          {rings.slice(0, 4).map((ring) => (
+            <Homepageproducts key={ring.id} product={ring} />
+          ))}
+        </div>
+
+        <div className="flex justify-center">
+          <button className=" hover:cursor-pointer hover:bg-black/5 px-13 py-3 text-black font-medium border border-black/10 rounded-4xl">
+            View All
+          </button>
+        </div>
       </section>
 
-      {/* ALL New Arrivals */}
-      {/* <ProductSection
-        sectionTitle="ALL NEW ARRIVALS"
-        json="newarrivals.json"
-        extrajson="allnewarrivals.json"
-      /> */}
-      {/* ALL Top Selling */}
-      {/* <ProductSection
-        sectionTitle="ALL TOP SELLING"
-        json="topselling.json"
-        extrajson="alltopselling.json"
-      /> */}
+      <div className="border-1 border-black/10 mx-auto w-[65%]"></div>
+
+      {/* Top Selling */}
+      <section className="min-w-[320px] max-w-7xl mx-auto pt-20 pb-12">
+        <p className="font-raleway text-center text-sectiontitle font-bold xl:font-extrabold  px-5 lg:px-24">
+          NECKLACES
+        </p>
+        <div className="flex flex-wrap items-center justify-center gap-5 py-10 px-2 tier2:px-10 ">
+          {necklaces.slice(0, 4).map((necklace) => (
+            <Homepageproducts key={necklace.id} product={necklace} />
+          ))}
+        </div>
+
+        <div className="flex justify-center">
+          <button className=" hover:cursor-pointer hover:bg-black/5 px-13 py-3 text-black font-medium border border-black/10 rounded-4xl">
+            View All
+          </button>
+        </div>
+      </section>
+
+      <div className="border-1 border-black/10 mx-auto w-[65%]"></div>
+
+      {/* Top Selling */}
+      <section className="min-w-[320px] max-w-7xl mx-auto pt-20 pb-12">
+        <p className="font-raleway text-center text-sectiontitle font-bold xl:font-extrabold  px-5 lg:px-24">
+          EARRINGS
+        </p>
+        <div className="flex flex-wrap items-center justify-center gap-5 py-10 px-2 tier2:px-10 ">
+          {earrings.slice(0, 4).map((earring) => (
+            <Homepageproducts key={earring.id} product={earring} />
+          ))}
+        </div>
+
+        <div className="flex justify-center">
+          <button className=" hover:cursor-pointer hover:bg-black/5 px-13 py-3 text-black font-medium border border-black/10 rounded-4xl">
+            View All
+          </button>
+        </div>
+      </section>
+
+      <div className="border-1 border-black/10 mx-auto w-[65%]"></div>
+
+      {/* Top Selling */}
+      <section className="min-w-[320px] max-w-7xl mx-auto pt-20 pb-12">
+        <p className="font-raleway text-center text-sectiontitle font-bold xl:font-extrabold  px-5 lg:px-24">
+          BRACELETS
+        </p>
+        <div className="flex flex-wrap items-center justify-center gap-5 py-10 px-2 tier2:px-10 ">
+          {bracelets.slice(0, 4).map((bracelet) => (
+            <Homepageproducts key={bracelet.id} product={bracelet} />
+          ))}
+        </div>
+
+        <div className="flex justify-center">
+          <button className=" hover:cursor-pointer hover:bg-black/5 px-13 py-3 text-black font-medium border border-black/10 rounded-4xl">
+            View All
+          </button>
+        </div>
+      </section>
+
+      <div className="border-1 border-black/10 mx-auto w-[65%]"></div>
 
       {/* Browse dress style */}
       <section className="min-w-[320px] py-2 px-5 lg:px-20 ">
-        <div className="bg-gradient-to-r from-[#ffffff] to-[#9668f3] py-12 rounded-4xl">
+        <div className="gradientbg py-12 rounded-4xl">
           <p className="font-mont text-center text-sectiontitle font-extrabold">
             EXPLORE BY CATEGORY
           </p>
 
-          <div className="px-5 mx-auto max-w-5xl py-10 flex justify-center flex-wrap gap-5 md:gap-3 text-stat text-black font-medium">
+          <div className="px-5 mx-auto max-w-5xl xl:max-w-6xl py-10 flex justify-center flex-wrap gap-5 md:gap-3 text-stat text-black font-medium">
             <div
-              className="relative hover:cursor-pointer  w-full tier2:w-auto bg-white rounded-2xl overflow-hidden"
+              className="relative hover:cursor-pointer w-full tier2:w-auto bg-white rounded-2xl overflow-hidden"
               style={{
                 height: "clamp(190px,20vw,289px)",
                 width: "clamp(290px, 32vw,400px)",
@@ -251,26 +336,28 @@ function Homepage() {
       </section>
 
       {/* Customers */}
-      <section className="my-20">
-        {/* Heading */}
-        <div className="flex items-center justify-between px-5 lg:px-24">
-          <p className="font-mont text-sectiontitle font-extrabold">
-            OUR HAPPY CUSTOMERS
-          </p>
-          <ul className="flex items-center gap-3 text-3xl text-sub">
-            <li className="hover:cursor-pointer hover:scale-105 transition duration-300 ease-in-out">
-              <FaAngleLeft />
-            </li>
-            <li className="hover:cursor-pointer hover:scale-105 transition duration-300 ease-in-out">
-              <FaAngleRight />
-            </li>
-          </ul>
-        </div>
-        {/* testimonial */}
-        <div className="flex flex-wrap items-center justify-center gap-3 py-8 px-4">
-          {datas.map((data) => (
-            <CustomerReviews key={data.id} data={data} />
-          ))}
+      <section className="w-full">
+        <div className="max-w-7xl mx-auto my-20">
+          {/* Heading */}
+          <div className="flex items-center justify-between px-5 lg:px-24">
+            <p className="font-mont text-sectiontitle font-extrabold">
+              OUR HAPPY CUSTOMERS
+            </p>
+            <ul className="flex items-center gap-3 text-3xl text-sub">
+              <li className="hover:cursor-pointer hover:scale-105 transition duration-300 ease-in-out">
+                <FaAngleLeft />
+              </li>
+              <li className="hover:cursor-pointer hover:scale-105 transition duration-300 ease-in-out">
+                <FaAngleRight />
+              </li>
+            </ul>
+          </div>
+          {/* testimonial */}
+          <div className="flex flex-wrap items-center justify-center gap-3 py-8 px-4">
+            {reviews.slice(0,4).map((review) => (
+              <CustomerReviews key={review.id} review={review} />
+            ))}
+          </div>
         </div>
       </section>
     </div>

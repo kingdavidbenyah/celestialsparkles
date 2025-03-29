@@ -1,0 +1,136 @@
+[
+  {
+    "id": 1,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/ac/P01059023.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/ac/P01059023_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/ac/P01059023_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/ac/P01059023_d3.jpg",
+    "brand": "givenchy",
+    "name": "4G Padlock necklace",
+    "price": 435,
+    "rating": 4.2,
+    "discount": 30,
+    "availability": true
+  },
+
+  {
+    "id": 2,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/d7/P01039535.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/d7/P01039535_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/d7/P01039535_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/d7/P01039535_d3.jpg",
+    "brand": "valentino",
+    "name": "Chez Cherryfic necklace",
+    "price": 410,
+    "rating": 3.2,
+    "discount": 25,
+    "availability": false
+  },
+
+  {
+    "id": 3,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/64/P01009217.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/64/P01009217_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/64/P01009217_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/64/P01009217_d3.jpg",
+    "brand": "lemaire",
+    "name": "Estampe necklace",
+    "price": "434",
+    "rating": 4.5,
+    "discount": 22,
+    "availability": true
+  },
+
+  {
+    "id": 4,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/0c/P01016738.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/0c/P01016738_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/0c/P01016738_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/0c/P01016738_d3.jpg",
+    "brand": "CHLOÉ",
+    "name": "Faux pearl necklace",
+    "price": 300,
+    "rating": 4.1,
+    "discount": 19,
+    "availability": true
+  },
+
+  {
+    "id": 5,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/23/P00951687.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/23/P00951687_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/23/P00951687_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/23/P00951687_d3.jpg",
+    "brand": "gucci",
+    "name": "GG Marmont necklace",
+    "price": 295,
+    "rating": 4.4,
+    "discount": 15,
+    "availability": false
+  },
+  {
+    "id": 6,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/e6/P01039170.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/e6/P01039170_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/e6/P01039170_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/e6/P01039170_d3.jpg",
+    "brand": "givenchy",
+    "name": "Heart pendant necklace",
+    "price": 485,
+    "rating": 3.8,
+    "discount": 35,
+    "availability": true
+  },
+  {
+    "id": 7,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/97/P00635266.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/97/P00635266_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/97/P00635266_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/97/P00635266_d3.jpg",
+    "brand": "loewe",
+    "name": "24kt sterling necklace",
+    "price": 520,
+    "rating": 3.9,
+    "discount": 25,
+    "availability": true
+  },
+  {
+    "id": 8,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/08/P00989715.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/08/P00989715_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/08/P00989715_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/08/P00989715_d3.jpg",
+    "brand": "mcqueen",
+    "name": "Arrow pendant necklace",
+    "price": 330,
+    "rating": 3.3,
+    "discount": 40,
+    "availability": false
+  },
+  {
+    "id": 9,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/82/P01008594.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/82/P01008594_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/82/P01008594_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/82/P01008594_d3.jpg",
+    "brand": "burberry",
+    "name": "water pearl necklace",
+    "price": 270,
+    "rating": 4.8,
+    "discount": 17,
+    "availability": true
+  },
+  {
+    "id": 10,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/02/P00995495.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/02/P00995495_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/02/P00995495_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/02/P00995495_d3.jpg",
+    "brand": "dolce& gabbana",
+    "name": "DG embellished necklace",
+    "price": 500,
+    "rating": 4.2,
+    "discount": 27,
+    "availability": true
+  }
+]

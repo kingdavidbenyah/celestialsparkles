@@ -2,9 +2,8 @@ import { useState } from "react";
 import { RiVerifiedBadgeFill } from "react-icons/ri";
 import { MdOutlineStarPurple500 } from "react-icons/md";
 
-const CustomerReviews = ({ data }) => {
-  const [isVerified, setIsVerified] = useState(data.verified);
-  const stars = Array(data.rating).fill("⭐");
+const CustomerReviews = ({ review }) => {
+  const stars = Array(review.rating).fill("⭐");
 
   return (
     <section
@@ -21,24 +20,24 @@ const CustomerReviews = ({ data }) => {
       </div> */}
       {/* OR */}
       <div className="flex">
-        {Array(data.rating)
+        {Array(review.rating)
           .fill(null)
           .map((_, index) => (
-            <span className="text-yellow-300 text-sm md:text-base">
+            <span key={index} className="text-yellow-300 text-sm md:text-base">
               <MdOutlineStarPurple500 />
             </span>
           ))}
       </div>
 
       <div className="text-black text-review flex items-center gap-2 font-medium">
-        {data.name}
-        {isVerified && (
+        {review.name}
+        {review.verified && (
           <span className="md:text-base text-green-600 text-base">
             <RiVerifiedBadgeFill />
           </span>
         )}
       </div>
-      <div className="text-sub text-reviewsub">"{data.review}"</div>
+      <div className="text-sub text-reviewsub">"{review.review}"</div>
     </section>
   );
 };
