@@ -249,8 +249,6 @@ function Homepage() {
         </div>
       </section>
 
-      <div className="border-1 border-black/10 mx-auto w-[65%]"></div>
-
       {/* Browse dress style */}
       <section className="min-w-[320px] py-2 px-5 lg:px-20 ">
         <div className="gradientbg py-12 rounded-4xl">
