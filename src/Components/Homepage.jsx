@@ -77,10 +77,13 @@ function Homepage() {
               </li>
               {/* CTA */}
               <li className="text-btn w-full flex justify-center xl:justify-start">
+                <Link to="/shop">
                 <button className="py-[14px] tier1:py-4 px-14 w-full tier2:w-auto rounded-4xl bg-black hover:bg-[rgb(0,0,0,0.8)] hover:cursor-pointer text-white">
                   Shop Now
                 </button>
+                </Link>
               </li>
+
             </ul>
             <ul className="text-center xl:text-left tier1:px-10 flex flex-wrap justify-center items-center gap-4 xl:gap-7 px-3 lg:px-10 lg:justify-start">
               <li className="text-stat grid grid-cols-1 font-medium ">
@@ -183,9 +186,11 @@ function Homepage() {
         </div>
 
         <div className="flex justify-center">
+                                        <Link to="/shop">
           <button className=" hover:cursor-pointer hover:bg-black/5 px-13 py-3 text-black font-medium border border-black/10 rounded-4xl">
             View All
           </button>
+          </Link>
         </div>
       </section>
 
@@ -203,9 +208,11 @@ function Homepage() {
         </div>
 
         <div className="flex justify-center">
+                                                  <Link to="/shop">
           <button className=" hover:cursor-pointer hover:bg-black/5 px-13 py-3 text-black font-medium border border-black/10 rounded-4xl">
             View All
           </button>
+          </Link>
         </div>
       </section>
 
@@ -223,9 +230,11 @@ function Homepage() {
         </div>
 
         <div className="flex justify-center">
+                                                  <Link to="/shop">
           <button className=" hover:cursor-pointer hover:bg-black/5 px-13 py-3 text-black font-medium border border-black/10 rounded-4xl">
             View All
           </button>
+          </Link>
         </div>
       </section>
 
@@ -243,9 +252,11 @@ function Homepage() {
         </div>
 
         <div className="flex justify-center">
+                                                  <Link to="/shop">
           <button className=" hover:cursor-pointer hover:bg-black/5 px-13 py-3 text-black font-medium border border-black/10 rounded-4xl">
             View All
           </button>
+          </Link>
         </div>
       </section>
 
