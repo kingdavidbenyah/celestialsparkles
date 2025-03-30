@@ -186,7 +186,7 @@ function Homepage() {
         </div>
 
         <div className="flex justify-center">
-                                        <Link to="/shop">
+                                        <Link to="/shop" onClick={() => window.scrollTo(0, 0)}>
           <button className=" hover:cursor-pointer hover:bg-black/5 px-13 py-3 text-black font-medium border border-black/10 rounded-4xl">
             View All
           </button>
@@ -208,7 +208,7 @@ function Homepage() {
         </div>
 
         <div className="flex justify-center">
-                                                  <Link to="/shop">
+                                        <Link to="/shop" onClick={() => window.scrollTo(0, 0)}>
           <button className=" hover:cursor-pointer hover:bg-black/5 px-13 py-3 text-black font-medium border border-black/10 rounded-4xl">
             View All
           </button>
@@ -230,7 +230,7 @@ function Homepage() {
         </div>
 
         <div className="flex justify-center">
-                                                  <Link to="/shop">
+                                        <Link to="/shop" onClick={() => window.scrollTo(0, 0)}>
           <button className=" hover:cursor-pointer hover:bg-black/5 px-13 py-3 text-black font-medium border border-black/10 rounded-4xl">
             View All
           </button>
@@ -252,7 +252,7 @@ function Homepage() {
         </div>
 
         <div className="flex justify-center">
-                                                  <Link to="/shop">
+                                        <Link to="/shop" onClick={() => window.scrollTo(0, 0)}>
           <button className=" hover:cursor-pointer hover:bg-black/5 px-13 py-3 text-black font-medium border border-black/10 rounded-4xl">
             View All
           </button>
