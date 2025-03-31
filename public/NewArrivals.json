@@ -1,0 +1,204 @@
+[
+  {
+    "id": 1,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/09/P01021797.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/09/P01021797_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/09/P01021797_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/09/P01021797_d3.jpg",
+    "brand": "Magda Butrym",
+    "name": "Crochet pearls necklace",
+    "price": 485,
+    "rating": 4,
+    "discount": 10,
+    "availability": true
+  },
+
+  {
+    "id": 2,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/74/P01016758.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/74/P01016758_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/74/P01016758_d3.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/74/P01016758_d4.jpg",
+    "brand": "Chloé",
+    "name": "Shells pendant necklace",
+    "price": 700,
+    "rating": 3.8,
+    "discount": 30,
+    "availability": true
+  },
+
+  {
+    "id": 3,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/6a/P01017289.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/6a/P01017289_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/6a/P01017289_d3.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/6a/P01017289_d4.jpg",
+    "brand": "Simone Rocha",
+    "name": "Legato pearls necklace",
+    "price": 300,
+    "rating": 4.5,
+    "discount": 12,
+    "availability": true
+  },
+
+  {
+    "id": 4,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/b6/P01007333.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/b6/P01007333_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/b6/P01007333_d3.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/b6/P01007333_d4.jpg",
+    "brand": "Valentino",
+    "name": "Coeur VLogo necklace",
+    "price": 615,
+    "rating": 4.1,
+    "discount": 19,
+    "availability": true
+  },
+
+  {
+    "id": 5,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/51/P00940577.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/51/P00940577_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/51/P00940577_d3.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/51/P00940577_d4.jpg",
+    "brand": "Gucci",
+    "name": "Interlocking 18kt gold ring",
+    "price": 730,
+    "rating": 4.9,
+    "discount": 35,
+    "availability": true
+  },
+  {
+    "id": 6,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/6e/P00811781.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/6e/P00811781_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/6e/P00811781_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/6e/P00811781_d3.jpg",
+    "brand": "Givenchy",
+    "name": "U Lock gold ring",
+    "price": 320,
+    "rating": 3,
+    "discount": 10,
+    "availability": true
+  },
+  {
+    "id": 7,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/7f/P00997264.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/7f/P00997264_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/7f/P00997264_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/7f/P00997264_d3.jpg",
+    "brand": "Chloé",
+    "name": "Charms embellished ring",
+    "price": 270,
+    "rating": 3.9,
+    "discount": 0,
+    "availability": true
+  },
+  {
+    "id": 8,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/5a/P01007340.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/5a/P01007340_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/5a/P01007340_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/5a/P01007340_d3.jpg",
+    "brand": "Valentino",
+    "name": "VLogo embellished ring",
+    "price": 270,
+    "rating": 3,
+    "discount": 0,
+    "availability": true
+  },
+  {
+    "id": 9,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/65/P01017770.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/65/P01017770_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/65/P01017770_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/65/P01017770_d3.jpg",
+    "brand": " Balmain",
+    "name": "Perfume hoop earrings",
+    "price": 295,
+    "rating": 4.6,
+    "discount": 0,
+    "availability": true
+  },
+  {
+    "id": 10,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/f6/P01021802.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/f6/P01021802_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/f6/P01021802_d3.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/f6/P01021802_d4.jpg",
+    "brand": "Magda Butrym",
+    "name": "Rose sterling pearls",
+    "price": 465,
+    "rating": 3.5,
+    "discount": 17,
+    "availability": true
+  },
+  {
+    "id": 11,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/32/P01036368.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/32/P01036368_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/32/P01036368_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/32/P01036368_d3.jpg",
+    "brand": "Gucci",
+    "name": "Gucci Bamboo bangle",
+    "price": 600,
+    "rating": 4.2,
+    "discount": 30,
+    "availability": true
+  },
+
+  {
+    "id": 12,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/d8/P00940567.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/d8/P00940567_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/d8/P00940567_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/d8/P00940567_d3.jpg",
+    "brand": "Gucci",
+    "name": "Script brass bracelet",
+    "price": 295,
+    "rating": 3.2,
+    "discount": 0,
+    "availability": true
+  },
+
+  {
+    "id": 13,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/47/P01027860.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/47/P01027860_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/47/P01027860_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/47/P01027860_d3.jpg",
+    "brand": "Saint Laurent",
+    "name": "Cassandre leather bracelet",
+    "price": "245",
+    "rating": 4.5,
+    "discount": 0,
+    "availability": true
+  },
+
+  {
+    "id": 14,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/51/P00998784.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/51/P00998784_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/51/P00998784_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/51/P00998784_d3.jpg",
+    "brand": "Bottega Veneta",
+    "name": "Knot sterling bracelet",
+    "price": 380,
+    "rating": 4.1,
+    "discount": 20,
+    "availability": true
+  },
+  {
+    "id": 15,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/17/P01004920.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/17/P01004920_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/17/P01004920_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/17/P01004920_d3.jpg",
+    "brand": "Jacquemus",
+    "name": "Tournesols oversized earrings",
+    "price": 330,
+    "rating": 4.1,
+    "discount": 15,
+    "availability": true
+  }
+]

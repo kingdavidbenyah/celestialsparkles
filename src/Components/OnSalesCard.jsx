@@ -1,9 +1,9 @@
-import { IoBagAddOutline } from "react-icons/io5";
+import { IoBagAddOutline, IoBagCheckOutline } from "react-icons/io5";
 import { TbExternalLink } from "react-icons/tb";
 import { FaCediSign } from "react-icons/fa6";
 import { BsFillLightningFill } from "react-icons/bs";
 
-const OnSalesCard = ({ product }) => {
+const OnSalesCard = ({ product, handleAddToCart, isAdded }) => {
   const newprice = ((100 - product.discount) / 100) * product.price;
   const percentleft = 100 - product.amountsold;
   return (
@@ -136,11 +136,30 @@ const OnSalesCard = ({ product }) => {
           </div>
         </div>
         {/* add to cart */}
-        <button className="bg-black mt-3 hover:cursor-pointer hover:bg-black/80 py-2 w-full text-white rounded-md flex justify-center items-center gap-2">
-          <span className="text-base">
-            <IoBagAddOutline />
-          </span>
-          Add to Cart
+        <button
+          onClick={() => handleAddToCart(product.id)}
+          disabled={isAdded}
+          className={`${
+            isAdded
+              ? "bg-black/80"
+              : "bg-black hover:bg-black/70 hover:cursor-pointer"
+          } mt-3 py-2 w-full text-white rounded-md`}
+        >
+          {isAdded ? (
+            <p className="flex justify-center items-center">
+              <span className="text-base md:text-[18px] pr-2 -mt-1">
+                <IoBagCheckOutline />
+              </span>
+              Added to Cart
+            </p>
+          ) : (
+            <p className="flex justify-center items-center">
+              <span className="text-base md:text-[18px] pr-2 -mt-1">
+                <IoBagAddOutline />
+              </span>
+              Add to Cart
+            </p>
+          )}
         </button>
       </div>
     </div>

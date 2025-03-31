@@ -13,47 +13,38 @@ function Homepage() {
     const reviewsjson = await reviews.json();
     showReviews(reviewsjson);
   };
-  // fetching rings
-  const [rings, showRings] = useState([]);
-  const fetchRings = async () => {
-    const rings = await fetch("Rings.json");
-    const ringsjson = await rings.json();
-    showRings(ringsjson);
+  // fetching newarrivals
+  const [newarrivals, showNewArrivals] = useState([]);
+  const fetchNewArrivals = async () => {
+    const newarrivals = await fetch("NewArrivals.json");
+    const newarrivalsjson = await newarrivals.json();
+    showNewArrivals(newarrivalsjson);
   };
-  // fetching necklaces
-  const [necklaces, showNecklaces] = useState([]);
-  const fetchNecklaces = async () => {
-    const necklace = await fetch("Necklaces.json");
-    const necklacejson = await necklace.json();
-    showNecklaces(necklacejson);
-  };
-  // fetching earrings
-  const [earrings, showEarrings] = useState([]);
-  const fetchEarrings = async () => {
-    const earring = await fetch("Earrings.json");
-    const earringjson = await earring.json();
-    showEarrings(earringjson);
-  };
-  // fetching bracelets
-  const [bracelets, showBracelets] = useState([]);
-  const fetchBracelets = async () => {
-    const bracelet = await fetch("Bracelets.json");
-    const braceletjson = await bracelet.json();
-    showBracelets(braceletjson);
+  // fetching shop
+  const [shopItems, setShopItems] = useState([]);
+  const fetchShopItems = async () => {
+    const shopItems = await fetch("Shop.json");
+    const shopItemsJson = await shopItems.json();
+    setShopItems(shopItemsJson);
   };
 
   useEffect(() => {
     fetchReviews();
-    fetchRings();
-    fetchNecklaces();
-    fetchEarrings();
-    fetchBracelets();
+    fetchNewArrivals();
+    fetchShopItems();
   }, []);
 
   // const [cartCount, setCartCount] = useState(0);
   // const handleCartCount = () => {
   //   setCartCount(cartCount + 1);
   // };
+
+  const topSoldItems = shopItems.filter((item) => item.availability == true);
+  const availableArrivals = topSoldItems.sort(
+    (a, b) =>
+      ((100 - a.discount) / 100) * a.price -
+      ((100 - b.discount) / 100) * b.price
+  );
 
   return (
     <div className="text-body font-poppins">
@@ -77,13 +68,12 @@ function Homepage() {
               </li>
               {/* CTA */}
               <li className="text-btn w-full flex justify-center xl:justify-start">
-                <Link to="/shop">
-                <button className="py-[14px] tier1:py-4 px-14 w-full tier2:w-auto rounded-4xl bg-black hover:bg-[rgb(0,0,0,0.8)] hover:cursor-pointer text-white">
-                  Shop Now
-                </button>
+                <Link to="/shop" onClick={() => window.scrollTo(0, 0)}>
+                  <button className="py-[14px] tier1:py-4 px-14 w-full tier2:w-auto rounded-4xl bg-black hover:bg-[rgb(0,0,0,0.8)] hover:cursor-pointer text-white">
+                    Shop Now
+                  </button>
                 </Link>
               </li>
-
             </ul>
             <ul className="text-center xl:text-left tier1:px-10 flex flex-wrap justify-center items-center gap-4 xl:gap-7 px-3 lg:px-10 lg:justify-start">
               <li className="text-stat grid grid-cols-1 font-medium ">
@@ -177,19 +167,19 @@ function Homepage() {
       {/* New Arrivals */}
       <section className="min-w-[320px] max-w-7xl mx-auto pt-20 pb-12">
         <p className="font-raleway text-center text-sectiontitle font-bold xl:font-extrabold  px-5 lg:px-24">
-          RINGS
+          NEW ARRIVALS
         </p>
         <div className="flex flex-wrap items-center justify-center gap-5 py-10 px-2 tier2:px-10 ">
-          {rings.slice(0, 4).map((ring) => (
-            <Homepageproducts key={ring.id} product={ring} />
+          {newarrivals.slice(0, 7).map((newarrival) => (
+            <Homepageproducts key={newarrival.id} product={newarrival} />
           ))}
         </div>
 
         <div className="flex justify-center">
-                                        <Link to="/shop" onClick={() => window.scrollTo(0, 0)}>
-          <button className=" hover:cursor-pointer hover:bg-black/5 px-13 py-3 text-black font-medium border border-black/10 rounded-4xl">
-            View All
-          </button>
+          <Link to="/shop" onClick={() => window.scrollTo(0, 0)}>
+            <button className=" hover:cursor-pointer hover:bg-black/5 px-13 py-3 text-black font-medium border border-black/10 rounded-4xl">
+              View All
+            </button>
           </Link>
         </div>
       </section>
@@ -199,65 +189,23 @@ function Homepage() {
       {/* Top Selling */}
       <section className="min-w-[320px] max-w-7xl mx-auto pt-20 pb-12">
         <p className="font-raleway text-center text-sectiontitle font-bold xl:font-extrabold  px-5 lg:px-24">
-          NECKLACES
+          TOP SELLING
         </p>
         <div className="flex flex-wrap items-center justify-center gap-5 py-10 px-2 tier2:px-10 ">
-          {necklaces.slice(0, 4).map((necklace) => (
-            <Homepageproducts key={necklace.id} product={necklace} />
-          ))}
+          {availableArrivals
+            .slice(0, 7)
+            .map((shopItem) => (
+              <Homepageproducts key={shopItem.id} product={shopItem} />
+            ))}
         </div>
 
-        <div className="flex justify-center">
-                                        <Link to="/shop" onClick={() => window.scrollTo(0, 0)}>
-          <button className=" hover:cursor-pointer hover:bg-black/5 px-13 py-3 text-black font-medium border border-black/10 rounded-4xl">
-            View All
-          </button>
+        {/* <div className="flex justify-center">
+          <Link to="/shop" onClick={() => window.scrollTo(0, 0)}>
+            <button className=" hover:cursor-pointer hover:bg-black/5 px-13 py-3 text-black font-medium border border-black/10 rounded-4xl">
+              View All
+            </button>
           </Link>
-        </div>
-      </section>
-
-      <div className="border-1 border-black/10 mx-auto w-[65%]"></div>
-
-      {/* Top Selling */}
-      <section className="min-w-[320px] max-w-7xl mx-auto pt-20 pb-12">
-        <p className="font-raleway text-center text-sectiontitle font-bold xl:font-extrabold  px-5 lg:px-24">
-          EARRINGS
-        </p>
-        <div className="flex flex-wrap items-center justify-center gap-5 py-10 px-2 tier2:px-10 ">
-          {earrings.slice(0, 4).map((earring) => (
-            <Homepageproducts key={earring.id} product={earring} />
-          ))}
-        </div>
-
-        <div className="flex justify-center">
-                                        <Link to="/shop" onClick={() => window.scrollTo(0, 0)}>
-          <button className=" hover:cursor-pointer hover:bg-black/5 px-13 py-3 text-black font-medium border border-black/10 rounded-4xl">
-            View All
-          </button>
-          </Link>
-        </div>
-      </section>
-
-      <div className="border-1 border-black/10 mx-auto w-[65%]"></div>
-
-      {/* Top Selling */}
-      <section className="min-w-[320px] max-w-7xl mx-auto pt-20 pb-12">
-        <p className="font-raleway text-center text-sectiontitle font-bold xl:font-extrabold  px-5 lg:px-24">
-          BRACELETS
-        </p>
-        <div className="flex flex-wrap items-center justify-center gap-5 py-10 px-2 tier2:px-10 ">
-          {bracelets.slice(0, 4).map((bracelet) => (
-            <Homepageproducts key={bracelet.id} product={bracelet} />
-          ))}
-        </div>
-
-        <div className="flex justify-center">
-                                        <Link to="/shop" onClick={() => window.scrollTo(0, 0)}>
-          <button className=" hover:cursor-pointer hover:bg-black/5 px-13 py-3 text-black font-medium border border-black/10 rounded-4xl">
-            View All
-          </button>
-          </Link>
-        </div>
+        </div> */}
       </section>
 
       {/* Browse dress style */}

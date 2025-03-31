@@ -1,4 +1,5 @@
 import ShopCard from "./ShopCard";
+import { useOutletContext } from "react-router-dom";
 import { useState, useEffect } from "react";
 function Shop() {
   const [shopItems, setShopItems] = useState([]);
@@ -10,8 +11,15 @@ function Shop() {
   useEffect(() => {
     fetchShopItems();
   }, []);
+  const { handleCartCount } = useOutletContext();
+  const [addedProducts, setAddedProducts] = useState({});
 
-  const randomItems = shopItems.sort(() => Math.random() - 0.5);
+  const handleAddToCart = (id) => {
+    setAddedProducts((prev) => ({ ...prev, [id]: true }));
+    handleCartCount(); // Increment cart count
+  };
+
+  // const randomItems = shopItems.sort(() => Math.random() - 0.5);
 
   return (
     <section className="pt-25 font-poppins text-body">
@@ -26,9 +34,14 @@ function Shop() {
             Explore our collection of stunning accessories
           </p>
         </div>
-        <div className="max-w-[1300px] mx-auto flex flex-wrap items-center justify-center gap-5 space-y-5 tier1:gap-7 px-2 md:px-10 py-10">
-          {randomItems.slice(0, 12).map((shopitem) => (
-            <ShopCard key={shopitem.id} product={shopitem} />
+        <div className="max-w-[1300px] mx-auto flex flex-wrap items-center justify-center gap-5 space-y-5 tier2:gap-7 px-2 md:px-10 py-10">
+          {shopItems.slice(0, 12).map((shopitem) => (
+            <ShopCard
+              key={shopitem.id}
+              product={shopitem}
+              handleAddToCart={handleAddToCart}
+              isAdded={!!addedProducts[shopitem.id]}
+            />
           ))}
         </div>
       </section>

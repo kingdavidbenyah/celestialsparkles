@@ -6,7 +6,7 @@ const Homepageproducts = ({ product }) => {
   const newprice = ((100 - product.discount) / 100) * product.price;
   return (
     <div
-      className=" grid grid-cols-1 gap-2 bg-white/10 shadow-md hover:cursor-pointer font-poppins text-body pt-2"
+      className="hover:scale-[101%] transition-transform ease-in-out grid grid-cols-1 gap-2 bg-white/10 shadow-md hover:cursor-pointer font-poppins text-body pt-2"
       style={{ width: "clamp(165px, 34vw, 210px)" }}
     >
       {/* image */}

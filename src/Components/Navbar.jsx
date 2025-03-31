@@ -2,13 +2,12 @@ import { useState } from "react";
 import { FiSearch } from "react-icons/fi";
 import { IoSparklesSharp } from "react-icons/io5";
 import { Link, useLocation } from "react-router-dom";
-function Navbar() {
+function Navbar({ count }) {
   const [isOpen, setIsOpen] = useState(false);
   const [isShowing, setIsShowing] = useState(true);
 
   const location = useLocation(); // Get the current route
 
-  // const [isActive, setIsActive] = useState(false);
   return (
     <section className="fixed w-full z-40 font-poppins">
       {isShowing && (
@@ -71,7 +70,7 @@ function Navbar() {
 
               {/* Nav Links for lg screens */}
               <ul className="hidden lg:flex space-x-6 text-gray-700">
-                <Link to="/shop">
+                <Link to="/shop" onClick={() => window.scrollTo(0, 0)}>
                   <li
                     className={`${
                       location.pathname === "/shop" ? "" : "hover:text-primary"
@@ -84,7 +83,7 @@ function Navbar() {
                     )}
                   </li>
                 </Link>
-                <Link to="/onsale">
+                <Link to="/onsale" onClick={() => window.scrollTo(0, 0)}>
                   <li
                     className={`${
                       location.pathname === "/onsale"
@@ -99,7 +98,7 @@ function Navbar() {
                     )}
                   </li>
                 </Link>
-                <Link to="newarrivals">
+                <Link to="newarrivals" onClick={() => window.scrollTo(0, 0)}>
                   <li
                     className={`${
                       location.pathname === "/newarrivals"
@@ -114,7 +113,7 @@ function Navbar() {
                     )}
                   </li>
                 </Link>
-                <Link to="brands">
+                <Link to="brands" onClick={() => window.scrollTo(0, 0)}>
                   <li
                     className={`${
                       location.pathname === "/brands"
@@ -142,6 +141,7 @@ function Navbar() {
                     to="/shop"
                     onClick={() => {
                       setIsOpen(!isOpen);
+                      window.scrollTo(0, 0);
                     }}
                   >
                     <li
@@ -161,6 +161,7 @@ function Navbar() {
                     to="/onsale"
                     onClick={() => {
                       setIsOpen(!isOpen);
+                      window.scrollTo(0, 0);
                     }}
                   >
                     <li
@@ -181,6 +182,7 @@ function Navbar() {
                     to="newarrivals"
                     onClick={() => {
                       setIsOpen(!isOpen);
+                      window.scrollTo(0, 0);
                     }}
                   >
                     <li
@@ -200,6 +202,7 @@ function Navbar() {
                     to="brands"
                     onClick={() => {
                       setIsOpen(!isOpen);
+                      window.scrollTo(0, 0);
                     }}
                   >
                     <li
@@ -237,13 +240,18 @@ function Navbar() {
                 <button className="text-black hover:bg-slate-50 hover:cursor-pointer  hover:rounded-full p-2 text-[20px] tier1:text-[24px] font-bold md:hidden">
                   <FiSearch />
                 </button>
-                <button className=" hover:bg-slate-50 hover:cursor-pointer  hover:rounded-full p-2">
-                  <img
-                    src="assets/svg/cart.svg"
-                    alt="cart svg"
-                    className="w-5 tier1:w-6"
-                  />
-                </button>
+                <div className="relative">
+                  <button className="hover:bg-slate-50 hover:cursor-pointer  hover:rounded-full p-2">
+                    <img
+                      src="assets/svg/cart.svg"
+                      alt="cart svg"
+                      className="w-5 tier1:w-6"
+                    />
+                  </button>
+                  <p className="absolute top-[-2px] left-1/2 text-gray-700 bg-[#c897ff] h-4.5 w-4.5 xl:h-5 xl:w-5 flex justify-center items-center rounded-full text-[11px] xl:text-[12px] font-medium">
+                    <span className="w-fit">{count}</span>
+                  </p>
+                </div>
 
                 <button className="text-black hover:bg-slate-50 hover:cursor-pointer  hover:rounded-full p-2">
                   <img

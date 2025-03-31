@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import OnSalesCard from "./OnSalesCard.jsx";
+import { useOutletContext } from "react-router-dom";
 
 // export const CountdownTimer = () => {
 //   // Set the end time for 3 days from now
@@ -78,7 +79,7 @@ export const CountdownTimer = () => {
 
     if (!endTime) {
       // Set the end time for 3 days from now
-      endTime = new Date().getTime() + 3 * 24 * 60 * 60 * 1000;
+      endTime = new Date().getTime() + 7 * 24 * 60 * 60 * 1000;
       localStorage.setItem("countdownEndTime", endTime);
     }
 
@@ -137,20 +138,40 @@ export function OnSale() {
   useEffect(() => {
     fetchOnSales();
   }, []);
+
+  const { handleCartCount } = useOutletContext();
+  const [addedProducts, setAddedProducts] = useState({});
+
+  const handleAddToCart = (id) => {
+    setAddedProducts((prev) => ({ ...prev, [id]: true }));
+    handleCartCount(); // Increment cart count
+  };
+
   return (
     <>
       <section className="pt-25">
         {/* on sale */}
         <section className="min-w-[320px] max-w-8xl mx-auto pt-20 pb-12">
           <p className="flex gap-2 items-center justify-center font-raleway text-center text-pagetitle font-bold xl:font-extrabold  px-5 lg:px-24">
-            ON SALE <span className="text-primary font-semibold" style={{fontSize:"clamp(18px, 3.5vw, 25px)"}}>- Limited!</span>
+            ON SALE{" "}
+            <span
+              className="text-primary font-semibold"
+              style={{ fontSize: "clamp(18px, 3.5vw, 25px)" }}
+            >
+              - Limited!
+            </span>
           </p>
-          <p className="py-5 mx-auto w-fit">
+          <div className="py-5 mx-auto w-fit">
             <CountdownTimer />
-          </p>
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-5 space-y-5 tier1:gap-10 px-10 py-10">
             {onSales.map((onSale) => (
-              <OnSalesCard key={onSale.id} product={onSale} />
+              <OnSalesCard
+                key={onSale.id}
+                product={onSale}
+                handleAddToCart={handleAddToCart}
+                isAdded={!!addedProducts[onSale.id]}
+              />
             ))}
           </div>
         </section>
@@ -158,6 +179,3 @@ export function OnSale() {
     </>
   );
 }
-
-
-
