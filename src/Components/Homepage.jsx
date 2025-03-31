@@ -354,7 +354,7 @@ function Homepage() {
           </div>
           {/* testimonial */}
           <div className="flex flex-wrap items-center justify-center gap-3 py-8 px-4">
-            {reviews.slice(0,4).map((review) => (
+            {reviews.slice(0, 4).map((review) => (
               <CustomerReviews key={review.id} review={review} />
             ))}
           </div>
