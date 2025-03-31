@@ -22,7 +22,7 @@ function Shop() {
           <p className="font-raleway text-pagetitle font-bold xl:font-extrabold">
             OUR SHOP
           </p>
-          <p className="text-sub font-semibold text-sectiontitlesub">
+          <p className="text-sub font-medium tier2:font-semibold text-sectiontitlesub">
             Explore our collection of stunning accessories
           </p>
         </div>

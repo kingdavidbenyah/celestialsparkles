@@ -8,7 +8,7 @@ const OnSalesCard = ({ product }) => {
   const percentleft = 100 - product.amountsold;
   return (
     <div
-      className="min-w-[250px] grid grid-cols-1 gap-2 bg-white/10 shadow-md hover:cursor-pointer font-poppins text-body"
+      className="min-w-[250px] grid grid-cols-1 gap-2 bg-white/10 shadow-md hover:cursor-pointer font-poppins text-body pt-2"
       style={{ width: "clamp(250px, 100vw,300px)" }}
     >
       {/* image */}

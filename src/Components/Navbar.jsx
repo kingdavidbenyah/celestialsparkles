@@ -10,7 +10,7 @@ function Navbar() {
 
   // const [isActive, setIsActive] = useState(false);
   return (
-    <section className="fixed w-full z-40">
+    <section className="fixed w-full z-40 font-poppins">
       {isShowing && (
         // black signup pop up
         <div
