@@ -120,7 +120,7 @@ const ShopCard = ({ product, handleAddToCart, isAdded }) => {
         </div>
 
         {/* add to cart */}
-        <button
+        {product.availability === true ? (<button
           onClick={() => handleAddToCart(product.id)}
           disabled={isAdded}
           className={`${
@@ -144,7 +144,7 @@ const ShopCard = ({ product, handleAddToCart, isAdded }) => {
               Add to Cart
             </p>
           )}
-        </button>
+        </button>) : ""}
       </div>
     </div>
   );
