@@ -248,7 +248,7 @@ function Navbar({ count }) {
                       className="w-5 tier1:w-6"
                     />
                   </button>
-                  <p className="absolute top-[-2px] left-1/2 text-gray-700 bg-primary h-4.5 w-4.5 xl:h-5 xl:w-5 flex justify-center items-center rounded-full text-[11px] xl:text-[12px] font-medium">
+                  <p className="absolute top-[-2px] left-1/2 text-black bg-primary h-4.5 w-4.5 xl:h-5 xl:w-5 flex justify-center items-center rounded-full text-[11px] xl:text-[12px] font-medium">
                     <span className="w-fit">{count}</span>
                   </p>
                 </div>
