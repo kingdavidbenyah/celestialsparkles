@@ -139,7 +139,7 @@ const ShopCard = ({ product, handleAddToCart, isAdded }) => {
             >
               <p className="flex justify-center items-center">
                 <span className="text-base md:text-[18px] pr-2 -mt-1">
-                  <IoBagCheckOutline />
+                  {isAdded ? <IoBagCheckOutline /> : <IoBagAddOutline />}
                 </span>
                 {isAdded ? "Added to Cart" : "Add to Cart"}
               </p>
