@@ -12,14 +12,7 @@ function Homepage() {
     const reviews = await fetch("CustomerReviews.json");
     const reviewsjson = await reviews.json();
     showReviews(reviewsjson);
-  };
-  // fetching newarrivals
-  const [newarrivals, showNewArrivals] = useState([]);
-  const fetchNewArrivals = async () => {
-    const newarrivals = await fetch("NewArrivals.json");
-    const newarrivalsjson = await newarrivals.json();
-    showNewArrivals(newarrivalsjson);
-  };
+  };  
   // fetching shop
   const [shopItems, setShopItems] = useState([]);
   const fetchShopItems = async () => {
@@ -28,9 +21,10 @@ function Homepage() {
     setShopItems(shopItemsJson);
   };
 
+  const newArrivals = shopItems.filter((item) => item.group == "newarrivals");
+
   useEffect(() => {
     fetchReviews();
-    fetchNewArrivals();
     fetchShopItems();
   }, []);
 
@@ -116,7 +110,7 @@ function Homepage() {
             </ul>
           </div>
           {/* Image */}
-          <div className="lg:h-screen flex items-center">
+          <div className="xl:h-screen flex items-center">
             <div className="flex flex-col items-center justify-center gap-2 max-w-400 w-fit">
               <div className="flex hexcover">
                 <div>
@@ -170,13 +164,13 @@ function Homepage() {
           NEW ARRIVALS
         </p>
         <div className="flex flex-wrap items-center justify-center gap-5 py-10 px-2 tier2:px-10 ">
-          {newarrivals.slice(0, 7).map((newarrival) => (
+          {newArrivals.slice(0, 6).map((newarrival) => (
             <Homepageproducts key={newarrival.id} product={newarrival} />
           ))}
         </div>
 
         <div className="flex justify-center">
-          <Link to="/shop" onClick={() => window.scrollTo(0, 0)}>
+          <Link to="/newarrivals" onClick={() => window.scrollTo(0, 0)}>
             <button className=" hover:cursor-pointer hover:bg-black/5 px-13 py-3 text-black font-medium border border-black/10 rounded-4xl">
               View All
             </button>
@@ -192,11 +186,9 @@ function Homepage() {
           TOP SELLING
         </p>
         <div className="flex flex-wrap items-center justify-center gap-5 py-10 px-2 tier2:px-10 ">
-          {availableArrivals
-            .slice(0, 7)
-            .map((shopItem) => (
-              <Homepageproducts key={shopItem.id} product={shopItem} />
-            ))}
+          {availableArrivals.slice(0, 6).map((shopItem) => (
+            <Homepageproducts key={shopItem.id} product={shopItem} />
+          ))}
         </div>
 
         {/* <div className="flex justify-center">

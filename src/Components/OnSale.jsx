@@ -67,7 +67,19 @@ export const CountdownTimer = () => {
 
   useEffect(() => {
     const timer = setInterval(() => {
-      setTimeLeft(getTimeLeft());
+      const updatedTime = getTimeLeft();
+      setTimeLeft(updatedTime);
+      // setTimeLeft(getTimeLeft());
+
+      // Stop interval if time is up
+      if (
+        updatedTime.days === "00" &&
+        updatedTime.hours === "00" &&
+        updatedTime.minutes === "00" &&
+        updatedTime.seconds === "00"
+      ) {
+        clearInterval(timer);
+      }
     }, 1000);
 
     return () => clearInterval(timer);
@@ -86,6 +98,9 @@ export const CountdownTimer = () => {
     // Calculate time difference
     const now = new Date().getTime();
     const difference = endTime - now;
+    if (difference <= 0) {
+      return { days: 0, hours: 0, minutes: 0, seconds: 0 };
+    }
 
     const days = Math.floor(difference / (1000 * 60 * 60 * 24));
     const hours = Math.floor((difference / (1000 * 60 * 60)) % 24);
@@ -128,24 +143,48 @@ export const CountdownTimer = () => {
 
 export function OnSale() {
   // fetching On Sales
-  const [onSales, showOnSales] = useState([]);
-  const fetchOnSales = async () => {
-    const onsale = await fetch("OnSale.json");
-    const onsalejson = await onsale.json();
-    showOnSales(onsalejson);
+  const [shopItems, setShopItems] = useState([]);
+  const fetchShopItems = async () => {
+    const shopItems = await fetch("/Shop.json");
+    const shopItemsJson = await shopItems.json();
+    setShopItems(shopItemsJson);
   };
-
   useEffect(() => {
-    fetchOnSales();
+    fetchShopItems();
   }, []);
+  const onSales = shopItems.filter((item) => item.group == "onsale");
 
+  //handling cart count
   const { handleCartCount } = useOutletContext();
   const [addedProducts, setAddedProducts] = useState({});
+  const [lastChangedId, setLastChangedId] = useState(null);
+  const [wasAdded, setWasAdded] = useState(null);
 
   const handleAddToCart = (id) => {
-    setAddedProducts((prev) => ({ ...prev, [id]: true }));
-    handleCartCount(); // Increment cart count
+    setAddedProducts((prev) => {
+      const isCurrentlyAdded = !!prev[id];
+      const updated = { ...prev };
+
+      if (isCurrentlyAdded) {
+        delete updated[id];
+        setWasAdded(false); // mark for effect
+      } else {
+        updated[id] = true;
+        setWasAdded(true); // mark for effect
+      }
+
+      setLastChangedId(id); // trigger effect
+      return updated;
+    });
   };
+  // SIDE EFFECT for cart count
+  useEffect(() => {
+    if (lastChangedId !== null && wasAdded !== null) {
+      handleCartCount(wasAdded);
+      setLastChangedId(null);
+      setWasAdded(null);
+    }
+  }, [lastChangedId, wasAdded, handleCartCount]);
 
   return (
     <>
@@ -153,7 +192,7 @@ export function OnSale() {
         {/* on sale */}
         <section className="min-w-[320px] max-w-8xl mx-auto pt-20 pb-12">
           <p className="flex gap-2 items-center justify-center font-raleway text-center text-pagetitle font-bold xl:font-extrabold  px-5 lg:px-24">
-            ON SALE{" "}
+            ON SALE
             <span
               className="text-primary font-semibold"
               style={{ fontSize: "clamp(18px, 3.5vw, 25px)" }}
@@ -164,7 +203,7 @@ export function OnSale() {
           <div className="py-5 mx-auto w-fit">
             <CountdownTimer />
           </div>
-          <div className="flex flex-wrap items-center justify-center gap-5 space-y-5 tier1:gap-10 px-10 py-10">
+          <div className="flex flex-wrap items-center justify-center gap-5 space-y-5 tier1:gap-7 px-10 py-10">
             {onSales.map((onSale) => (
               <OnSalesCard
                 key={onSale.id}

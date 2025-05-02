@@ -51,7 +51,7 @@ function Footer() {
             <Link to="/">
               <div>
                 <img
-                  src="assets/svg/CS logo.svg"
+                  src="/assets/svg/CS logo.svg"
                   alt="CS logo"
                   style={{
                     width: "clamp(65px, 20vw, 100px)",

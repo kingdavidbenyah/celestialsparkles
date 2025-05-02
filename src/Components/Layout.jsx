@@ -4,8 +4,8 @@ import Footer from "./Footer.jsx";
 import { useState } from "react";
 function Layout() {
   const [cartCount, setCartCount] = useState(0);
-  const handleCartCount = () => {
-    setCartCount(cartCount + 1);
+  const handleCartCount = (isAdded) => {
+    setCartCount((prev) => (isAdded ? prev + 1 : prev - 1));
   };
   return (
     <>

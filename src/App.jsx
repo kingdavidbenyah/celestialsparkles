@@ -7,6 +7,7 @@ import Shop from "./Components/Shop";
 import { OnSale } from "./Components/OnSale";
 import NewArrivals from "./Components/NewArrivals";
 import Brands from "./Components/Brands";
+import BrandPage from "./Components/BrandPage";
 import { BsEmojiFrown } from "react-icons/bs";
 import "./index.css";
 
@@ -20,6 +21,8 @@ function App() {
           <Route path="/onsale" element={<OnSale />} />
           <Route path="/newarrivals" element={<NewArrivals />} />
           <Route path="/brands" element={<Brands />} />
+          <Route path="/brands/:brandName" element={<BrandPage />} />
+
           <Route
             path="*"
             element={

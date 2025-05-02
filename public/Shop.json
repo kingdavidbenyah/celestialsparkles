@@ -5,12 +5,14 @@
     "img1": "https://www.mytheresa.com/media/1094/1238/100/e7/P01018214_d2.jpg",
     "img2": "https://www.mytheresa.com/media/1094/1238/100/e7/P01018214_d1.jpg",
     "img3": "https://www.mytheresa.com/media/1094/1238/100/e7/P01018214_d3.jpg",
-    "brand": "JIL SANDER",
+    "brand": "Jil Sander",
     "name": "Embellished ring",
     "price": 210,
     "rating": 4,
     "discount": 10,
-    "availability": false
+    "availability": false,
+    "category": "rings",
+    "group": "shop"
   },
 
   {
@@ -19,12 +21,14 @@
     "img1": "https://www.mytheresa.com/media/1094/1238/100/26/P00995743_d2.jpg",
     "img2": "https://www.mytheresa.com/media/1094/1238/100/26/P00995743_d3.jpg",
     "img3": "https://www.mytheresa.com/media/1094/1238/100/26/P00995743_d4.jpg",
-    "brand": "GUCCI",
+    "brand": "Gucci",
     "name": "Blondie crystal ring",
     "price": 320,
     "rating": 3.8,
     "discount": 20,
-    "availability": true
+    "availability": true,
+    "category": "rings",
+    "group": "shop"
   },
 
   {
@@ -33,12 +37,14 @@
     "img1": "https://www.mytheresa.com/media/1094/1238/100/9b/P00997276_d2.jpg",
     "img2": "https://www.mytheresa.com/media/1094/1238/100/9b/P00997276_d3.jpg",
     "img3": "https://www.mytheresa.com/media/1094/1238/100/9b/P00997276_d4.jpg",
-    "brand": "CHLOÉ",
+    "brand": "Chloé",
     "name": "Eclectic ring",
     "price": 295,
     "rating": 4.5,
     "discount": 22,
-    "availability": true
+    "availability": true,
+    "category": "rings",
+    "group": "shop"
   },
 
   {
@@ -47,12 +53,14 @@
     "img1": "https://www.mytheresa.com/media/1094/1238/100/7d/P00811779_d2.jpg",
     "img2": "https://www.mytheresa.com/media/1094/1238/100/7d/P00811779_d3.jpg",
     "img3": "https://www.mytheresa.com/media/1094/1238/100/7d/P00811779_d4.jpg",
-    "brand": "GIVENCHY",
+    "brand": "Givenchy",
     "name": "G Chain ring",
     "price": 300,
     "rating": 4.1,
     "discount": 19,
-    "availability": true
+    "availability": true,
+    "category": "rings",
+    "group": "shop"
   },
 
   {
@@ -61,12 +69,14 @@
     "img1": "https://www.mytheresa.com/media/1094/1238/100/ed/P00877187_d2.jpg",
     "img2": "https://www.mytheresa.com/media/1094/1238/100/ed/P00877187_d3.jpg",
     "img3": "https://www.mytheresa.com/media/1094/1238/100/ed/P00877187_d4.jpg",
-    "brand": "BALMAIN",
+    "brand": "Balmain",
     "name": "Logo ring",
     "price": 215,
     "rating": 4.9,
     "discount": 20,
-    "availability": false
+    "availability": false,
+    "category": "rings",
+    "group": "shop"
   },
   {
     "id": 6,
@@ -74,12 +84,14 @@
     "img1": "https://www.mytheresa.com/media/1094/1238/100/21/P00959848_d2.jpg",
     "img2": "https://www.mytheresa.com/media/1094/1238/100/21/P00959848_d1.jpg",
     "img3": "https://www.mytheresa.com/media/1094/1238/100/21/P00959848_d3.jpg",
-    "brand": "ZIMMERMANN",
+    "brand": "Zimmermann",
     "name": "embellished gold ring",
     "price": 190,
     "rating": 3,
     "discount": 6.5,
-    "availability": true
+    "availability": true,
+    "category": "rings",
+    "group": "shop"
   },
   {
     "id": 7,
@@ -87,12 +99,14 @@
     "img1": "https://www.mytheresa.com/media/1094/1238/100/6a/P00949372_d2.jpg",
     "img2": "https://www.mytheresa.com/media/1094/1238/100/6a/P00949372_d1.jpg",
     "img3": "https://www.mytheresa.com/media/1094/1238/100/6a/P00949372_d3.jpg",
-    "brand": "BALENCIAGA",
+    "brand": "Balenciaga",
     "name": "24/7 ring",
     "price": 300,
     "rating": 3.9,
     "discount": 25,
-    "availability": true
+    "availability": true,
+    "category": "rings",
+    "group": "shop"
   },
   {
     "id": 8,
@@ -100,12 +114,14 @@
     "img1": "https://www.mytheresa.com/media/1094/1238/100/b2/P00927904_d2.jpg",
     "img2": "https://www.mytheresa.com/media/1094/1238/100/b2/P00927904_d1.jpg",
     "img3": "https://www.mytheresa.com/media/1094/1238/100/b2/P00927904_d3.jpg",
-    "brand": "OSCAR DE LA RENTA",
+    "brand": "Oscar De La Renta",
     "name": "Coral Heart ring",
     "price": 255,
     "rating": 3,
     "discount": 13,
-    "availability": true
+    "availability": true,
+    "category": "rings",
+    "group": "shop"
   },
   {
     "id": 9,
@@ -113,12 +129,14 @@
     "img1": "https://www.mytheresa.com/media/1094/1238/100/a1/P00989714_d2.jpg",
     "img2": "https://www.mytheresa.com/media/1094/1238/100/a1/P00989714_d1.jpg",
     "img3": "https://www.mytheresa.com/media/1094/1238/100/a1/P00989714_d3.jpg",
-    "brand": " MCQUEEN",
+    "brand": "Mcqueen",
     "name": "Arrow ring",
     "price": 295,
     "rating": 4.6,
     "discount": 12,
-    "availability": true
+    "availability": true,
+    "category": "rings",
+    "group": "shop"
   },
   {
     "id": 10,
@@ -126,12 +144,14 @@
     "img1": "https://www.mytheresa.com/media/1094/1238/100/da/P00940564_d2.jpg",
     "img2": "https://www.mytheresa.com/media/1094/1238/100/da/P00940564_d3.jpg",
     "img3": "https://www.mytheresa.com/media/1094/1238/100/da/P00940564_d4.jpg",
-    "brand": "GUCCI",
+    "brand": "Gucci",
     "name": "Blondie enamel ring",
     "price": 280,
     "rating": 3.5,
     "discount": 17,
-    "availability": false
+    "availability": false,
+    "category": "rings",
+    "group": "shop"
   },
   {
     "id": 11,
@@ -139,12 +159,14 @@
     "img1": "https://www.mytheresa.com/media/1094/1238/100/ac/P01059023_d2.jpg",
     "img2": "https://www.mytheresa.com/media/1094/1238/100/ac/P01059023_d1.jpg",
     "img3": "https://www.mytheresa.com/media/1094/1238/100/ac/P01059023_d3.jpg",
-    "brand": "givenchy",
+    "brand": "Givenchy",
     "name": "4G Padlock necklace",
     "price": 435,
     "rating": 4.2,
     "discount": 30,
-    "availability": true
+    "availability": true,
+    "category": "necklaces",
+    "group": "shop"
   },
 
   {
@@ -153,12 +175,14 @@
     "img1": "https://www.mytheresa.com/media/1094/1238/100/d7/P01039535_d2.jpg",
     "img2": "https://www.mytheresa.com/media/1094/1238/100/d7/P01039535_d1.jpg",
     "img3": "https://www.mytheresa.com/media/1094/1238/100/d7/P01039535_d3.jpg",
-    "brand": "valentino",
+    "brand": "Valentino",
     "name": "Chez Cherryfic necklace",
     "price": 410,
     "rating": 3.2,
     "discount": 25,
-    "availability": false
+    "availability": false,
+    "category": "necklaces",
+    "group": "shop"
   },
 
   {
@@ -167,12 +191,14 @@
     "img1": "https://www.mytheresa.com/media/1094/1238/100/64/P01009217_d2.jpg",
     "img2": "https://www.mytheresa.com/media/1094/1238/100/64/P01009217_d1.jpg",
     "img3": "https://www.mytheresa.com/media/1094/1238/100/64/P01009217_d3.jpg",
-    "brand": "lemaire",
+    "brand": "Lemaire",
     "name": "Estampe necklace",
     "price": "434",
     "rating": 4.5,
     "discount": 22,
-    "availability": true
+    "availability": true,
+    "category": "necklaces",
+    "group": "shop"
   },
 
   {
@@ -181,12 +207,14 @@
     "img1": "https://www.mytheresa.com/media/1094/1238/100/0c/P01016738_d2.jpg",
     "img2": "https://www.mytheresa.com/media/1094/1238/100/0c/P01016738_d1.jpg",
     "img3": "https://www.mytheresa.com/media/1094/1238/100/0c/P01016738_d3.jpg",
-    "brand": "CHLOÉ",
+    "brand": "Chloé",
     "name": "Faux pearl necklace",
     "price": 300,
     "rating": 4.1,
     "discount": 19,
-    "availability": true
+    "availability": true,
+    "category": "necklaces",
+    "group": "shop"
   },
 
   {
@@ -195,12 +223,14 @@
     "img1": "https://www.mytheresa.com/media/1094/1238/100/23/P00951687_d2.jpg",
     "img2": "https://www.mytheresa.com/media/1094/1238/100/23/P00951687_d1.jpg",
     "img3": "https://www.mytheresa.com/media/1094/1238/100/23/P00951687_d3.jpg",
-    "brand": "gucci",
+    "brand": "Gucci",
     "name": "GG Marmont necklace",
     "price": 295,
     "rating": 4.4,
     "discount": 15,
-    "availability": false
+    "availability": false,
+    "category": "necklaces",
+    "group": "shop"
   },
   {
     "id": 16,
@@ -208,12 +238,14 @@
     "img1": "https://www.mytheresa.com/media/1094/1238/100/e6/P01039170_d2.jpg",
     "img2": "https://www.mytheresa.com/media/1094/1238/100/e6/P01039170_d1.jpg",
     "img3": "https://www.mytheresa.com/media/1094/1238/100/e6/P01039170_d3.jpg",
-    "brand": "givenchy",
+    "brand": "Givenchy",
     "name": "Heart pendant necklace",
     "price": 485,
     "rating": 3.8,
     "discount": 35,
-    "availability": true
+    "availability": true,
+    "category": "necklaces",
+    "group": "shop"
   },
   {
     "id": 17,
@@ -221,12 +253,14 @@
     "img1": "https://www.mytheresa.com/media/1094/1238/100/97/P00635266_d2.jpg",
     "img2": "https://www.mytheresa.com/media/1094/1238/100/97/P00635266_d1.jpg",
     "img3": "https://www.mytheresa.com/media/1094/1238/100/97/P00635266_d3.jpg",
-    "brand": "loewe",
+    "brand": "Loewe",
     "name": "24kt sterling necklace",
     "price": 520,
     "rating": 3.9,
     "discount": 25,
-    "availability": true
+    "availability": true,
+    "category": "necklaces",
+    "group": "shop"
   },
   {
     "id": 18,
@@ -234,12 +268,14 @@
     "img1": "https://www.mytheresa.com/media/1094/1238/100/08/P00989715_d2.jpg",
     "img2": "https://www.mytheresa.com/media/1094/1238/100/08/P00989715_d1.jpg",
     "img3": "https://www.mytheresa.com/media/1094/1238/100/08/P00989715_d3.jpg",
-    "brand": "mcqueen",
+    "brand": "Mcqueen",
     "name": "Arrow pendant necklace",
     "price": 330,
     "rating": 3.3,
     "discount": 40,
-    "availability": false
+    "availability": false,
+    "category": "necklaces",
+    "group": "shop"
   },
   {
     "id": 19,
@@ -247,12 +283,14 @@
     "img1": "https://www.mytheresa.com/media/1094/1238/100/82/P01008594_d2.jpg",
     "img2": "https://www.mytheresa.com/media/1094/1238/100/82/P01008594_d1.jpg",
     "img3": "https://www.mytheresa.com/media/1094/1238/100/82/P01008594_d3.jpg",
-    "brand": "burberry",
+    "brand": "Burberry",
     "name": "water pearl necklace",
     "price": 270,
     "rating": 4.8,
     "discount": 17,
-    "availability": true
+    "availability": true,
+    "category": "necklaces",
+    "group": "shop"
   },
   {
     "id": 20,
@@ -265,7 +303,9 @@
     "price": 610,
     "rating": 4.2,
     "discount": 37,
-    "availability": true
+    "availability": true,
+    "category": "necklaces",
+    "group": "shop"
   },
   {
     "id": 21,
@@ -273,12 +313,14 @@
     "img1": "https://www.mytheresa.com/media/1094/1238/100/45/P00995490_d2.jpg",
     "img2": "https://www.mytheresa.com/media/1094/1238/100/45/P00995490_d1.jpg",
     "img3": "https://www.mytheresa.com/media/1094/1238/100/45/P00995490_d3.jpg",
-    "brand": "Dolce& Gabbana",
+    "brand": "Dolce & Gabbana",
     "name": "DG cross hoop earrings",
     "price": 330,
     "rating": 4.2,
     "discount": 30,
-    "availability": true
+    "availability": true,
+    "category": "earrings",
+    "group": "shop"
   },
 
   {
@@ -292,7 +334,9 @@
     "price": 410,
     "rating": 3.2,
     "discount": 35,
-    "availability": true
+    "availability": true,
+    "category": "earrings",
+    "group": "shop"
   },
 
   {
@@ -304,9 +348,11 @@
     "brand": "Zimmermann",
     "name": "Bloom hoop earrings",
     "price": "250",
-    "rating": 4.5,
+    "rating": 4,
     "discount": 6,
-    "availability": false
+    "availability": false,
+    "category": "earrings",
+    "group": "shop"
   },
 
   {
@@ -320,7 +366,9 @@
     "price": 495,
     "rating": 4.1,
     "discount": 24,
-    "availability": true
+    "availability": true,
+    "category": "earrings",
+    "group": "shop"
   },
 
   {
@@ -334,7 +382,9 @@
     "price": 285,
     "rating": 4.4,
     "discount": 15,
-    "availability": true
+    "availability": true,
+    "category": "earrings",
+    "group": "shop"
   },
   {
     "id": 26,
@@ -347,7 +397,9 @@
     "price": 410,
     "rating": 3.8,
     "discount": 35,
-    "availability": true
+    "availability": true,
+    "category": "earrings",
+    "group": "shop"
   },
   {
     "id": 27,
@@ -360,7 +412,9 @@
     "price": 380,
     "rating": 3.9,
     "discount": 15,
-    "availability": false
+    "availability": false,
+    "category": "earrings",
+    "group": "shop"
   },
   {
     "id": 28,
@@ -371,9 +425,11 @@
     "brand": "Zimmermann",
     "name": "Flow hoop earrings",
     "price": 210,
-    "rating": 3.3,
+    "rating": 3,
     "discount": 5,
-    "availability": true
+    "availability": true,
+    "category": "earrings",
+    "group": "shop"
   },
   {
     "id": 29,
@@ -381,12 +437,14 @@
     "img1": "https://www.mytheresa.com/media/1094/1238/100/c9/P01018341_d2.jpg",
     "img2": "https://www.mytheresa.com/media/1094/1238/100/c9/P01018341_d1.jpg",
     "img3": "https://www.mytheresa.com/media/1094/1238/100/c9/P01018341_d3.jpg",
-    "brand": "max mara",
+    "brand": "Max mara",
     "name": "Fedra earrings",
     "price": 220,
     "rating": 4.8,
     "discount": 17,
-    "availability": false
+    "availability": false,
+    "category": "earrings",
+    "group": "shop"
   },
   {
     "id": 30,
@@ -394,12 +452,14 @@
     "img1": "https://www.mytheresa.com/media/1094/1238/100/b9/P01039174_d2.jpg",
     "img2": "https://www.mytheresa.com/media/1094/1238/100/b9/P01039174_d1.jpg",
     "img3": "https://www.mytheresa.com/media/1094/1238/100/b9/P01039174_d3.jpg",
-    "brand": "givenchy",
+    "brand": "Givenchy",
     "name": "Curve earrings",
     "price": 605,
     "rating": 4.2,
     "discount": 27,
-    "availability": true
+    "availability": true,
+    "category": "earrings",
+    "group": "shop"
   },
   {
     "id": 31,
@@ -412,7 +472,9 @@
     "price": 405,
     "rating": 4.2,
     "discount": 35,
-    "availability": true
+    "availability": true,
+    "category": "bracelets",
+    "group": "shop"
   },
 
   {
@@ -426,7 +488,9 @@
     "price": 435,
     "rating": 3.2,
     "discount": 45,
-    "availability": true
+    "availability": true,
+    "category": "bracelets",
+    "group": "shop"
   },
 
   {
@@ -436,11 +500,13 @@
     "img2": "https://www.mytheresa.com/media/1094/1238/100/40/P00879958_d1.jpg",
     "img3": "https://www.mytheresa.com/media/1094/1238/100/40/P00879958_d3.jpg",
     "brand": "Max Mara",
-    "name": "Fervida c3hain bracelet",
+    "name": "Fervida chain bracelet",
     "price": "160",
     "rating": 4.5,
     "discount": 6,
-    "availability": false
+    "availability": false,
+    "category": "bracelets",
+    "group": "shop"
   },
 
   {
@@ -449,12 +515,14 @@
     "img1": "https://www.mytheresa.com/media/1094/1238/100/47/P01041357_d2.jpg",
     "img2": "https://www.mytheresa.com/media/1094/1238/100/47/P01041357_d1.jpg",
     "img3": "https://www.mytheresa.com/media/1094/1238/100/47/P01041357_d3.jpg",
-    "brand": "loewe",
+    "brand": "Loewe",
     "name": "Pebble sterling bracelet",
     "price": 380,
     "rating": 4.1,
     "discount": 24,
-    "availability": true
+    "availability": true,
+    "category": "bracelets",
+    "group": "shop"
   },
 
   {
@@ -463,12 +531,14 @@
     "img1": "https://www.mytheresa.com/media/1094/1238/100/bf/P00995489_d2.jpg",
     "img2": "https://www.mytheresa.com/media/1094/1238/100/bf/P00995489_d1.jpg",
     "img3": "https://www.mytheresa.com/media/1094/1238/100/bf/P00995489_d3.jpg",
-    "brand": "Dolce& Gabbana",
+    "brand": "Dolce & Gabbana",
     "name": "Cross crystal bracelet",
-    "price": 250,
+    "price": 170,
     "rating": 4.4,
     "discount": 5,
-    "availability": true
+    "availability": true,
+    "category": "bracelets",
+    "group": "shop"
   },
   {
     "id": 36,
@@ -476,12 +546,14 @@
     "img1": "https://www.mytheresa.com/media/1094/1238/100/93/P00881017_d2.jpg",
     "img2": "https://www.mytheresa.com/media/1094/1238/100/93/P00881017_d1.jpg",
     "img3": "https://www.mytheresa.com/media/1094/1238/100/93/P00881017_d3.jpg",
-    "brand": "gucci",
+    "brand": "Gucci",
     "name": "Blondie chain bracelet",
     "price": 335,
     "rating": 3.8,
     "discount": 9,
-    "availability": true
+    "availability": true,
+    "category": "bracelets",
+    "group": "shop"
   },
   {
     "id": 37,
@@ -489,12 +561,14 @@
     "img1": "https://www.mytheresa.com/media/1094/1238/100/06/P01013388_d2.jpg",
     "img2": "https://www.mytheresa.com/media/1094/1238/100/06/P01013388_d1.jpg",
     "img3": "https://www.mytheresa.com/media/1094/1238/100/06/P01013388_d3.jpg",
-    "brand": "givenchy",
+    "brand": "Givenchy",
     "name": "4G pearl bracelet",
     "price": 385,
     "rating": 3.9,
     "discount": 25,
-    "availability": false
+    "availability": false,
+    "category": "bracelets",
+    "group": "shop"
   },
   {
     "id": 38,
@@ -507,7 +581,9 @@
     "price": 630,
     "rating": 3.3,
     "discount": 25,
-    "availability": true
+    "availability": true,
+    "category": "bracelets",
+    "group": "shop"
   },
   {
     "id": 39,
@@ -520,7 +596,9 @@
     "price": 295,
     "rating": 4.8,
     "discount": 17,
-    "availability": true
+    "availability": true,
+    "category": "bracelets",
+    "group": "shop"
   },
   {
     "id": 40,
@@ -528,11 +606,305 @@
     "img1": "https://www.mytheresa.com/media/1094/1238/100/b9/P00523821_d2.jpg",
     "img2": "https://www.mytheresa.com/media/1094/1238/100/b9/P00523821_d1.jpg",
     "img3": "https://www.mytheresa.com/media/1094/1238/100/b9/P00523821_d3.jpg",
-    "brand": "mcqueen",
+    "brand": "Mcqueen",
     "name": "Faux pearl chain bracelet",
     "price": 329,
     "rating": 4.2,
     "discount": 14,
-    "availability": true
+    "availability": true,
+    "category": "bracelets",
+    "group": "shop"
+  },
+  {
+    "id": 41,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/08/P00859244.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/08/P00859244_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/08/P00859244_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/08/P00859244_d3.jpg",
+    "brand": "Saint Laurent",
+    "name": "Cassandre embellished bracelet",
+    "price": 420,
+    "rating": 4.2,
+    "discount": 42,
+    "availability": true,
+    "amountleft": 14,
+    "amountsold": 35,
+    "group": "onsale"
+  },
+  {
+    "id": 42,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/f8/P00900371.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/f8/P00900371_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/f8/P00900371_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/f8/P00900371_d3.jpg",
+    "brand": "Valentino",
+    "name": "VLogo Signature earrings",
+    "price": 410,
+    "rating": 3.2,
+    "discount": 40,
+    "availability": true,
+    "amountleft": 5,
+    "amountsold": 10,
+    "group": "onsale"
+  },
+  {
+    "id": 43,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/02/P00995495.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/02/P00995495_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/02/P00995495_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/02/P00995495_d3.jpg",
+    "brand": "Dolce & Gabbana",
+    "name": "DG embellished necklace",
+    "price": "500",
+    "rating": 4.5,
+    "discount": 50,
+    "availability": true,
+    "amountleft": 15,
+    "amountsold": 40,
+    "group": "onsale"
+  },
+
+  {
+    "id": 44,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/8f/P01053720.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/8f/P01053720_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/8f/P01053720_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/8f/P01053720_d3.jpg",
+    "brand": "Chloé",
+    "name": "Faux pearl necklace",
+    "price": 300,
+    "rating": 4.1,
+    "discount": 19,
+    "availability": true,
+    "amountleft": 10,
+    "amountsold": 20,
+    "group": "onsale"
+  },
+
+  {
+    "id": 45,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/b6/P01007333.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/b6/P01007333_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/b6/P01007333_d3.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/b6/P01007333_d4.jpg",
+    "brand": "Valentino",
+    "name": "Coeur VLogo necklace",
+    "price": 615,
+    "rating": 4.1,
+    "discount": 19,
+    "availability": true,
+    "category": "necklaces",
+    "group": "newarrivals"
+  },
+  {
+    "id": 46,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/51/P00940577.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/51/P00940577_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/51/P00940577_d3.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/51/P00940577_d4.jpg",
+    "brand": "Gucci",
+    "name": "Interlocking 18kt gold ring",
+    "price": 730,
+    "rating": 4.9,
+    "discount": 35,
+    "availability": true,
+    "category": "rings",
+    "group": "newarrivals"
+  },
+  {
+    "id": 47,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/65/P01017770.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/65/P01017770_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/65/P01017770_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/65/P01017770_d3.jpg",
+    "brand": "Balmain",
+    "name": "Perfume hoop earrings",
+    "price": 295,
+    "rating": 4.6,
+    "discount": 0,
+    "availability": true,
+    "category": "earrings",
+    "group": "newarrivals"
+  },
+  {
+    "id": 48,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/32/P01036368.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/32/P01036368_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/32/P01036368_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/32/P01036368_d3.jpg",
+    "brand": "Gucci",
+    "name": "Gucci Bamboo bangle",
+    "price": 600,
+    "rating": 4.2,
+    "discount": 30,
+    "availability": true,
+    "category": "bracelets",
+    "group": "newarrivals"
+  },
+  {
+    "id": 49,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/74/P01016758.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/74/P01016758_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/74/P01016758_d3.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/74/P01016758_d4.jpg",
+    "brand": "Chloé",
+    "name": "Shells pendant necklace",
+    "price": 700,
+    "rating": 3.8,
+    "discount": 30,
+    "availability": true,
+    "category": "necklaces",
+    "group": "newarrivals"
+  },
+  {
+    "id": 50,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/6e/P00811781.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/6e/P00811781_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/6e/P00811781_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/6e/P00811781_d3.jpg",
+    "brand": "Givenchy",
+    "name": "U Lock gold ring",
+    "price": 320,
+    "rating": 3,
+    "discount": 10,
+    "availability": true,
+    "category": "rings",
+    "group": "newarrivals"
+  },
+  {
+    "id": 51,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/17/P01004920.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/17/P01004920_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/17/P01004920_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/17/P01004920_d3.jpg",
+    "brand": "Jacquemus",
+    "name": "Tournesols earrings",
+    "price": 330,
+    "rating": 4.1,
+    "discount": 15,
+    "availability": true,
+    "category": "earrings",
+    "group": "newarrivals"
+  },
+  {
+    "id": 52,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/d8/P00940567.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/d8/P00940567_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/d8/P00940567_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/d8/P00940567_d3.jpg",
+    "brand": "Gucci",
+    "name": "Script brass bracelet",
+    "price": 295,
+    "rating": 3.2,
+    "discount": 0,
+    "availability": true,
+    "category": "bracelets",
+    "group": "newarrivals"
+  },
+  {
+    "id": 53,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/6a/P01017289.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/6a/P01017289_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/6a/P01017289_d3.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/6a/P01017289_d4.jpg",
+    "brand": "Simone Rocha",
+    "name": "Legato pearls necklace",
+    "price": 300,
+    "rating": 4.5,
+    "discount": 12,
+    "availability": true,
+    "category": "necklaces",
+    "group": "newarrivals"
+  },
+  {
+    "id": 54,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/7f/P00997264.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/7f/P00997264_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/7f/P00997264_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/7f/P00997264_d3.jpg",
+    "brand": "Chloé",
+    "name": "Charms embellished ring",
+    "price": 270,
+    "rating": 3.9,
+    "discount": 0,
+    "availability": true,
+    "category": "rings",
+    "group": "newarrivals"
+  },
+  {
+    "id": 55,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/47/P01027860.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/47/P01027860_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/47/P01027860_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/47/P01027860_d3.jpg",
+    "brand": "Saint Laurent",
+    "name": "Cassandre leather bracelet",
+    "price": "245",
+    "rating": 4.5,
+    "discount": 0,
+    "availability": true,
+    "category": "bracelets",
+    "group": "newarrivals"
+  },
+  {
+    "id": 56,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/5a/P01007340.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/5a/P01007340_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/5a/P01007340_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/5a/P01007340_d3.jpg",
+    "brand": "Valentino",
+    "name": "VLogo embellished ring",
+    "price": 270,
+    "rating": 3,
+    "discount": 0,
+    "availability": true,
+    "category": "rings",
+    "group": "newarrivals"
+  },
+  {
+    "id": 57,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/09/P01021797.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/09/P01021797_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/09/P01021797_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/09/P01021797_d3.jpg",
+    "brand": "Magda Butrym",
+    "name": "Crochet pearls necklace",
+    "price": 485,
+    "rating": 4,
+    "discount": 10,
+    "availability": true,
+    "category": "necklaces",
+    "group": "newarrivals"
+  },
+  {
+    "id": 58,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/51/P00998784.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/51/P00998784_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/51/P00998784_d1.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/51/P00998784_d3.jpg",
+    "brand": "Bottega Veneta",
+    "name": "Knot sterling bracelet",
+    "price": 380,
+    "rating": 4.1,
+    "discount": 20,
+    "availability": true,
+    "category": "bracelets",
+    "group": "newarrivals"
+  },
+
+  {
+    "id": 59,
+    "image": "https://www.mytheresa.com/media/1094/1238/100/f6/P01021802.jpg",
+    "img1": "https://www.mytheresa.com/media/1094/1238/100/f6/P01021802_d2.jpg",
+    "img2": "https://www.mytheresa.com/media/1094/1238/100/f6/P01021802_d3.jpg",
+    "img3": "https://www.mytheresa.com/media/1094/1238/100/f6/P01021802_d4.jpg",
+    "brand": "Magda Butrym",
+    "name": "Rose sterling pearls",
+    "price": 465,
+    "rating": 3.5,
+    "discount": 17,
+    "availability": true,
+    "category": "earrings",
+    "group": "newarrivals"
   }
 ]

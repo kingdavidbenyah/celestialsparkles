@@ -13,7 +13,6 @@
   --font-playfair: Playfair Display, sans-serif;
   --text-body: clamp(12px, 2.4vw, 15px);
   --text-btn: clamp(13px, 2.4vw, 16px);
-
   --text-stat: clamp(18px, 2.2vw, 30px);
   --text-review: clamp(14px, 2.2vw, 18px);
   --text-reviewsub: clamp(10px, 1.5vw, 13.5px);
@@ -28,6 +27,14 @@
 
 html {
   scroll-behavior: smooth;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
 }
 
 .gradientbg {

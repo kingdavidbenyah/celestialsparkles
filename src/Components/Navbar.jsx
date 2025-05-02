@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { FiSearch } from "react-icons/fi";
 import { IoSparklesSharp } from "react-icons/io5";
 import { Link, useLocation } from "react-router-dom";
@@ -8,8 +8,27 @@ function Navbar({ count }) {
 
   const location = useLocation(); // Get the current route
 
+  const menuRef = useRef(null); // 1. Create a ref
+
+  // 2. Detect clicks outside
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (menuRef.current && !menuRef.current.contains(event.target)) {
+        setIsOpen(false); // Close the menu
+      }
+    }
+
+    if (isOpen) {
+      document.addEventListener("mousedown", handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [isOpen]);
+
   return (
-    <section className="fixed w-full z-40 font-poppins">
+    <section className="fixed w-full z-40 font-poppins text-body">
       {isShowing && (
         // black signup pop up
         <div
@@ -43,7 +62,7 @@ function Navbar({ count }) {
               {/* hamburger */}
               <div onClick={() => setIsOpen(!isOpen)}>
                 <img
-                  src="assets/svg/navhamburger.svg"
+                  src="/assets/svg/navhamburger.svg"
                   alt="hamburger svg "
                   className="mt-2 lg:hidden hover:cursor-pointer w-5 tier1:w-6 md:w-7  focus:outline-none focus:ring-2 focus:ring-gray-400 rounded-sm h-fit"
                 />
@@ -58,7 +77,7 @@ function Navbar({ count }) {
               >
                 <div className=" text-[#8c53ff]">
                   <img
-                    src="assets/svg/CS logo.svg"
+                    src="/assets/svg/CS logo.svg"
                     alt="CS logo"
                     style={{
                       width: "clamp(65px, 20vw, 100px)",
@@ -106,7 +125,6 @@ function Navbar({ count }) {
                         : "hover:text-primary"
                     } hover:cursor-pointer flex flex-col gap-[1px] items-center`}
                   >
-                    {" "}
                     New Arrivals
                     {location.pathname === "/newarrivals" && (
                       <span className="w-2.5 h-0.5 rounded-full bg-primary"></span>
@@ -117,7 +135,9 @@ function Navbar({ count }) {
                   <li
                     className={`${
                       location.pathname === "/brands"
-                        ? ""
+                        ? // ||
+                          // location.pathname === `/brands/${brand}`
+                          ""
                         : "hover:text-primary"
                     } hover:cursor-pointer flex flex-col gap-[1px] items-center`}
                   >
@@ -133,6 +153,7 @@ function Navbar({ count }) {
             {/* Nav Links for sm & md screens */}
             {isOpen && (
               <div
+                ref={menuRef}
                 className="lg:hidden mt-5 mb-3 bg-gray-100 p-4 rounded-lg text-gray-600 order-1 w-full "
                 style={{ fontSize: "clamp(13px, 2vw, 15px)" }}
               >
@@ -226,7 +247,7 @@ function Navbar({ count }) {
               {/* Search Bar */}
               <div className="px-3 hidden md:flex items-center gap-2 bg-gray-100  rounded-full w-72 xl:w-88  focus:ring-2 focus:ring-gray-300">
                 <button className="w-4 h-5 text-gray-400">
-                  <img src="assets/svg/navsearch.svg" alt="nav search svg" />
+                  <img src="/assets/svg/navsearch.svg" alt="nav search svg" />
                 </button>
                 <input
                   type="text"
@@ -243,19 +264,19 @@ function Navbar({ count }) {
                 <div className="relative">
                   <button className="hover:bg-slate-50 hover:cursor-pointer  hover:rounded-full p-2">
                     <img
-                      src="assets/svg/cart.svg"
+                      src="/assets/svg/cart.svg"
                       alt="cart svg"
                       className="w-5 tier1:w-6"
                     />
                   </button>
-                  <p className="absolute top-[-2px] left-1/2 text-black bg-primary h-4.5 w-4.5 xl:h-5 xl:w-5 flex justify-center items-center rounded-full text-[11px] xl:text-[12px] font-medium">
+                  <p className="absolute top-[-2px] left-1/2 text-black bg-[#c9b2f8] h-4.5 w-4.5 xl:h-5 xl:w-5 flex justify-center items-center rounded-full text-[11px] xl:text-[12px] font-medium">
                     <span className="w-fit">{count}</span>
                   </p>
                 </div>
 
                 <button className="text-black hover:bg-slate-50 hover:cursor-pointer  hover:rounded-full p-2">
                   <img
-                    src="assets/svg/navprofile.svg"
+                    src="/assets/svg/navprofile.svg"
                     alt="profile svg"
                     className="w-5 tier1:w-6"
                   />
